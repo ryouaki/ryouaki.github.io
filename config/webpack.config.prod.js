@@ -110,6 +110,7 @@ module.exports = {
           /\.html$/,
           /\.(js|jsx)$/,
           /\.css$/,
+          /\.lss$/,
           /\.json$/,
           /\.svg$/
         ],
