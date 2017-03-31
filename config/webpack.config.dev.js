@@ -112,6 +112,7 @@ module.exports = {
           // https://github.com/facebookincubator/create-react-app/issues/1713
           /\.(js|jsx)(\?.*)?$/,
           /\.css$/,
+          /\.less$/,
           /\.json$/,
           /\.svg$/
         ],
@@ -159,13 +160,12 @@ module.exports = {
       },
       {
         test: /\.less$/,
-        loader: 'style!css!less'
+        loader: 'style-loader!css-loader!postcss-loader!less-loader'
       }
       // ** STOP ** Are you adding a new loader?
       // Remember to add the new extension(s) to the "url" loader exclusion list.
     ]
   },
-  
   // We use PostCSS for autoprefixing only.
   postcss: function() {
     return [
