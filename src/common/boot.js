@@ -9,8 +9,13 @@
         let rootFontSize = 0;
         let width = document.body.clientWidth;
         let html = document.getElementsByTagName('html')[0];
-        rootFontSize = width / 80; // 一般来讲，各种移动设备的屏幕宽度都是80的整数倍。
-        html.style.fontSize = rootFontSize + 'px';
+
+        if (width <= 720) {
+            rootFontSize = width / 80; // 一般来讲，各种移动设备的屏幕宽度都是80的整数倍。
+            html.style.fontSize = rootFontSize + 'px';
+        } else {
+            html.style.fontSize = '16px';
+        }
     }
 
     // 需要在用户调整浏览器大小的时候自适应。
@@ -29,4 +34,4 @@
     // 在程序启动就设置html标签的font-size。
     initRootFontSize();
 
-})(window||global);
+})(window || global);

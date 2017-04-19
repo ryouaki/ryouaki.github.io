@@ -10,7 +10,11 @@ import {
 
 import './styles/index.less';
 
+import MainView from './views/MainView';
+
 ReactDOM.render(
-    <div>111</div>,
+    <Router>
+        <Route exact path='/' component={MainView}/>
+    </Router>,
     document.getElementById('root')
 );
