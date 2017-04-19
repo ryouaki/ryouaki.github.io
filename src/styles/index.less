@@ -3,6 +3,24 @@
 .headerbar-container {
     color: rgba(255, 255, 255, .75);
     background-color: #24292e;
-    max-width: 980px;
+    padding: 0 e("calc( 50% - 490px )");
     margin: auto;
+
+    .headerbar-item-left {
+        padding-left: 10px;
+        font-size: 19px;
+    }
+
+    .headerbar-item-right {
+        padding-right: 10px;
+
+        span {
+            cursor: pointer;
+            padding: 0 5px;
+
+            &:hover {
+                color: red;
+            }
+        }
+    }
 }

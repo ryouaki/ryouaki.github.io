@@ -7,10 +7,10 @@ export default class MainContainer extends React.Component {
         return(
             <div>
                 <HeaderBar layout={ HeaderBar.HEADER_LAYOUT_TYPE_BETWEEN } className="headerbar-container">
-                    <HeaderItem>
+                    <HeaderItem className="headerbar-item-left">
                         Hi1896-Ryouaki
                     </HeaderItem>
-                    <HeaderItem>
+                    <HeaderItem className="headerbar-item-right">
                         <span>中文</span>
                         /
                         <span>English</span>

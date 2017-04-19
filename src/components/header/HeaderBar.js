@@ -1,5 +1,4 @@
 import React from 'react';
-
 import classnames from 'classnames';
 
 import './styles/index.less';
@@ -13,21 +12,21 @@ class HeaderBar extends React.Component {
             ...other
         } = this.props;
 
-        return(
+        return (
             <header { ...other } className={classnames(
                 "ryou-headerbar-container",
                 `ryou-headerbar-container-layout-${layout}`,
                 className
-                )}>
-                { this.props.children }
+            )}>
+                {this.props.children}
             </header>
         );
     }
 }
 
 HeaderBar.HEADER_LAYOUT_TYPE_BETWEEN = 'between';
-HeaderBar.HEADER_LAYOUT_TYPE_START   = 'start';
-HeaderBar.HEADER_LAYOUT_TYPE_END     = 'end';
-HeaderBar.HEADER_LAYOUT_TYPE_CENTER  = 'center';
+HeaderBar.HEADER_LAYOUT_TYPE_START = 'start';
+HeaderBar.HEADER_LAYOUT_TYPE_END = 'end';
+HeaderBar.HEADER_LAYOUT_TYPE_CENTER = 'center';
 
 export default HeaderBar;
