@@ -1,7 +1,6 @@
 import React from 'react';
 
 import './styles/index.less';
-import './styles/index_mobile.less';
 
 export default class HeaderItem extends React.Component {
     render() {

@@ -8,9 +8,10 @@ import {
     Route
 } from 'react-router-dom';
 
-import './styles/index.less';
-
 import MainView from './views/MainView';
+
+import './styles/index.less';
+import './styles/index_mobile.less';
 
 ReactDOM.render(
     <Router>
