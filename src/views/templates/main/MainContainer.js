@@ -1,7 +1,12 @@
 import React from 'react';
 
-import { HeaderBar, HeaderItem } from '../../../components';
-import { FooterBar } from '../../../components';
+import { 
+    HeaderBar, 
+    HeaderItem, 
+    Container,
+    FooterBar, 
+    GithubIcon 
+} from '../../../components';
 
 export default class MainContainer extends React.Component {
     render() {
@@ -9,7 +14,7 @@ export default class MainContainer extends React.Component {
             <div>
                 <HeaderBar align={ HeaderBar.HEADER_LAYOUT_TYPE_BETWEEN } className="headerbar-container">
                     <HeaderItem className="headerbar-item-left">
-                        梁亚辉(Ryou) - Hi1896
+                        Ryou (梁亚辉)
                     </HeaderItem>
                     <HeaderItem align={ HeaderItem.HEADER_ITEM_ALIGN_RIGHT } className="headerbar-item-right">
                         <span>中文</span>
@@ -17,9 +22,22 @@ export default class MainContainer extends React.Component {
                         <span>English</span>
                     </HeaderItem>
                 </HeaderBar>
-                111222
-                <FooterBar className="footerbar-container">
-                    &copy;&nbsp;2017&nbsp;<a href="https://github.com/ryouaki/ryouaki.github.io">https://ryouaki.github.com</a>
+                <Container className="body-container">
+                    这是一个基于GitHub风格的React个人主页网站，还在开发中。
+                </Container>
+                <FooterBar align={ FooterBar.FOOTER_LAYOUT_TYPE_BETWEEN } className="footerbar-container">
+                    <div className="footer-item-left">
+                        &copy;&nbsp;2017&nbsp;Ryou-UI:&nbsp;
+                        <a href="https://github.com/ryouaki/ryouaki.github.io">
+                            https://ryouaki.github.com
+                        </a>
+                    </div>
+                    <div className="footer-item-center">
+                        <a href="https://github.com"><GithubIcon/></a>
+                    </div>
+                    <div className="footer-item-right">
+                        <a href="https://github.com/ryouaki">Ryou's GitHub</a>
+                    </div>
                 </FooterBar>
             </div>
         );
