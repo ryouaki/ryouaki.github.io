@@ -4,12 +4,10 @@
     .container();
 
     .headerbar-item-left {
-        padding-left: 10px;
         font-size: 19px;
     }
 
     .headerbar-item-right {
-        padding-right: 10px;
         span {
             cursor: pointer;
             padding: 0 5px;
@@ -21,13 +19,85 @@
     }
 }
 
+.body-container {
+    .container();
+
+    margin: 20px e('calc( 50% - 490px )');
+    padding: 0px;
+    background-color: #ffffff;
+    color: @fontColor;
+
+    .body-container-profile {
+        
+        border-radius: 4px;
+
+        .body-container-profile-avatar {
+            margin: 4px;
+
+            img {
+                width: 100%;
+                border-radius: 4px;
+            }
+        }
+
+        .body-container-profile-userinfo,
+        .body-container-profile-contact,
+        .body-container-profile-organization{
+            margin: 4px;
+            border-bottom: 1px solid @borderColor;
+            padding: 10px 0px 15px 0px;
+        }
+
+        .body-container-profile-organization {
+            border: none;
+            padding-bottom: 0px;
+        }
+
+        .body-container-profile-userinfo {
+            .body-container-profile-name {
+                font-size: 22px;
+                font-weight: bold;
+                word-wrap: break-word;
+                color: #24292e;
+            }
+
+            .body-container-profile-title {
+                font-size: 16px;
+                margin-bottom: 5px;
+            }
+
+            .body-container-profile-notice {
+                margin-top: 10px;
+                color: #6a737d;
+            }
+        }
+
+        .body-container-profile-text {
+            height: 20px;
+            line-height: 20px;
+            display: flex;
+            margin-bottom: 2px;
+
+            svg {
+                height: 20px;
+                width: 16px;
+                margin-right: 5px;
+
+                path {
+                    fill: #6a737d;
+                }
+            }
+        }
+    }
+}
+
 .footerbar-container {
     .container();
 
     background-color: #ffffff;
     border-top: 1px solid #eaecef;
-    margin: 0 e("calc( 50% - 490px )");
-    padding: 0px 10px;
+    margin: 0 e('calc( 50% - 490px )');
+    padding: 0px 0px;
     box-sizing: border-box;
     color: @fontColor;
 
@@ -65,13 +135,4 @@
     .footer-item-right {
         text-align: right;
     }
-}
-
-.body-container {
-    .container();
-
-    margin: 0 e("calc( 50% - 490px )");
-    padding: 0px;
-    background-color: #ffffff;
-    color: @fontColor;
 }

@@ -14,7 +14,7 @@ class FooterBar extends React.Component {
 
         return (
             <footer { ...other } className={classnames(
-                "ryou-footerbar-container",
+                'ryou-footerbar-container',
                 `ryou-footerbar-container-layout-${align}`,
                 className
             )}>
