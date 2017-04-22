@@ -36,7 +36,10 @@ export default class MainContainer extends React.Component {
                         <a href="https://github.com"><GithubIcon/></a>
                     </div>
                     <div className="footer-item-right">
-                        <a href="https://github.com/ryouaki">Ryou's GitHub</a>
+                        Ryou's&nbsp;
+                        <a href="https://github.com/ryouaki">GitHub</a>&nbsp;|&nbsp;
+                        <a href="mailto:46517115@qq.com">Email</a>&nbsp;|&nbsp;
+                        <a href="tel:13940923382">Mobile</a>
                     </div>
                 </FooterBar>
             </div>
