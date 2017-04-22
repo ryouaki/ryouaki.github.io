@@ -32,7 +32,7 @@ if (env.stringified['process.env'].NODE_ENV !== '"production"') {
 
 // Note: defined here because it will be used more than once.
 const cssFilename = 'static/css/[name].[contenthash:8].css';
-
+const extractLESS = new ExtractTextPlugin('static/css/[name].[contenthash:8].css');
 // ExtractTextPlugin expects the build output to be flat.
 // (See https://github.com/webpack-contrib/extract-text-webpack-plugin/issues/27)
 // However, our output is structured with css, js and media folders.
@@ -110,7 +110,7 @@ module.exports = {
           /\.html$/,
           /\.(js|jsx)$/,
           /\.css$/,
-          /\.lss$/,
+          /\.less$/,
           /\.json$/,
           /\.svg$/
         ],
@@ -149,8 +149,8 @@ module.exports = {
         // Note: this won't work without `new ExtractTextPlugin()` in `plugins`.
       },
       {
-        test: /\.less$/,
-        loader: 'style!css!postcss!less'
+        test: /\.less$/i, 
+        loader: extractLESS.extract(['css','less'])
       },
       // JSON is not enabled by default in Webpack but both Node and Browserify
       // allow it implicitly so we also enable it.
@@ -231,6 +231,7 @@ module.exports = {
         screw_ie8: true
       }
     }),
+    extractLESS,
     // Note: this won't work without ExtractTextPlugin.extract(..) in `loaders`.
     new ExtractTextPlugin(cssFilename),
     // Generate a manifest file which contains a mapping of all asset filenames
