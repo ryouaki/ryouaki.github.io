@@ -3,6 +3,21 @@
     padding: 0px;
 }
 
+@fontColor: #586069;
+
 body {
     font-size: 14px;
+}
+
+.container() {
+    color: rgba(255, 255, 255, .75);
+    background-color: #24292e;
+    padding: 0 e("calc( 50% - 490px )");
+    margin: auto;
+}
+
+@media screen and (max-width: 980px) {
+    .container() {
+        padding: 0 0;
+    }
 }

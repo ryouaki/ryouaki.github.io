@@ -1,6 +1,7 @@
 import React from 'react';
 
 import { HeaderBar, HeaderItem } from '../../../components';
+import { FooterBar } from '../../../components';
 
 export default class MainContainer extends React.Component {
     render() {
@@ -17,6 +18,9 @@ export default class MainContainer extends React.Component {
                     </HeaderItem>
                 </HeaderBar>
                 111222
+                <FooterBar className="footerbar-container">
+                    &copy;&nbsp;2017&nbsp;<a href="https://github.com/ryouaki/ryouaki.github.io">https://ryouaki.github.com</a>
+                </FooterBar>
             </div>
         );
     }
