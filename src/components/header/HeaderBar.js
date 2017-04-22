@@ -7,7 +7,7 @@ class HeaderBar extends React.Component {
     render() {
 
         let {
-            layout = HeaderBar.HEADER_LAYOUT_TYPE_CENTER,
+            align = HeaderBar.HEADER_LAYOUT_TYPE_CENTER,
             className = '',
             ...other
         } = this.props;
@@ -15,7 +15,7 @@ class HeaderBar extends React.Component {
         return (
             <header { ...other } className={classnames(
                 "ryou-headerbar-container",
-                `ryou-headerbar-container-layout-${layout}`,
+                `ryou-headerbar-container-layout-${align}`,
                 className
             )}>
                 {this.props.children}

@@ -3,17 +3,28 @@ import classnames from 'classnames';
 
 import './styles/index.less';
 
-export default class HeaderItem extends React.Component {
+class HeaderItem extends React.Component {
     render() {
 
         let {
-            className = ''
+            className = '',
+            align = HeaderItem.HEADER_ITEM_ALIGN_LEFT
         } = this.props;
 
         return(
-            <header className={classnames(className, "ryou-headeritem-container")}>
+            <div className={classnames(
+                className, 
+                "ryou-headeritem-container",
+                `ryou-headeritem-container-align-${align}`,
+            )}>
                 { this.props.children }
-            </header>
+            </div>
         );
     }
 }
+
+HeaderItem.HEADER_ITEM_ALIGN_CENTER = 'cemter';
+HeaderItem.HEADER_ITEM_ALIGN_RIGHT  = 'right';
+HeaderItem.HEADER_ITEM_ALIGN_LEFT   = 'left';
+
+export default HeaderItem;

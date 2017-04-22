@@ -1,21 +1,47 @@
-@import './base.less';
+@import '../../base/styles/base.less';
+
+@headerHeight: 56px;
+@headerBackgroundColor: #ffffff;
+
+.headerbar-container() {
+    height: @headerHeight;
+    line-height: @headerHeight;
+    background-color: @headerBackgroundColor;
+    display: flex;
+}
 
 .ryou-headerbar-container {
     .headerbar-container();
 }
 
 .ryou-headerbar-container-layout-between {
-    .headerbar-container-layout-between();
+    .container-align-between();
 }
 
 .ryou-headerbar-container-layout-start {
-    .headerbar-container-layout-start();
+    .container-align-start();
 }
 
 .ryou-headerbar-container-layout-end {
-    .headerbar-container-layout-end();
+    .container-align-end();
 }
 
 .ryou-headerbar-container-layout-center {
-    .headerbar-container-layout-center();
+    .container-align-center();
+}
+
+.ryou-headeritem-container {
+    
+}
+
+.ryou-headeritem-container-align-right {
+    .container-text-align-right();
+}
+
+.ryou-headeritem-container-align-left {
+    .container-text-align-left();
+}
+
+.ryou-headeritem-container-align-center {
+    .container-text-align-center();
 }
