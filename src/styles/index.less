@@ -104,7 +104,6 @@
             flex-wrap: wrap;
 
             .body-container-baseinfo-warp-item-userinfo {
-                .common-border();
                 width: e("calc( 50% - 4px )");
                 .common-margining(2px);
 
@@ -114,13 +113,11 @@
             }
 
             .body-container-baseinfo-warp-item-relativeship {
-                .common-border();
                 width: e("calc( 50% - 4px )");
                 .common-margining(2px);
             }
 
             .body-container-baseinfo-warp-item-personal {
-                .common-border();
                 width: 100%;
                 .common-margining(2px);
             }
@@ -141,6 +138,9 @@
     a {
         text-decoration: none;
         cursor: pointer;
+        height: 100%;
+        display: inline-block;
+        line-height: 100%;
 
         &:active, &:visited, &:link {
             color: @fontColor;

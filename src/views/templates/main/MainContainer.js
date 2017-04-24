@@ -30,34 +30,24 @@ export default class MainContainer extends React.Component {
                 <Container className="body-container">
                     <ProfileContainer/>
                     <BaseInfoContainer/>
-                    这是一个基于GitHub风格的React个人主页网站，还在开发中。
-                    <div style={{width:"200px",height:"400px",margin:"5px",border:"1px solid #000"}}></div>
-                    <div style={{width:"200px",height:"200px",margin:"5px",border:"1px solid #000"}}></div>
-                    <div style={{width:"200px",height:"200px",margin:"5px",border:"1px solid #000"}}></div>
-                    <div style={{width:"200px",height:"200px",margin:"5px",border:"1px solid #000"}}></div>
-                    <div style={{width:"200px",height:"200px",margin:"5px",border:"1px solid #000"}}></div>
-                    <div style={{width:"200px",height:"200px",margin:"5px",border:"1px solid #000"}}></div>
-                    <div style={{width:"200px",height:"200px",margin:"5px",border:"1px solid #000"}}></div>
                 </Container>
-                {
-                    false&&<FooterBar align={ FooterBar.FOOTER_LAYOUT_TYPE_BETWEEN } className="footerbar-container">
-                        <div className="footer-item-left">
-                            &copy;&nbsp;2017&nbsp;Ryou-UI:&nbsp;
-                            <a href="https://github.com/ryouaki/ryouaki.github.io">
-                                https://ryouaki.github.com
-                            </a>
-                        </div>
-                        <div className="footer-item-center">
-                            <a href="https://github.com"><GithubIcon/></a>
-                        </div>
-                        <div className="footer-item-right">
-                            Ryou's&nbsp;
-                            <a href="https://github.com/ryouaki">GitHub</a>&nbsp;|&nbsp;
-                            <a href="mailto:46517115@qq.com">Email</a>&nbsp;|&nbsp;
-                            <a href="tel:13940923382">Mobile</a>
-                        </div>
-                    </FooterBar>
-                }
+                <FooterBar align={ FooterBar.FOOTER_LAYOUT_TYPE_BETWEEN } className="footerbar-container">
+                    <div className="footer-item-left">
+                        &copy;&nbsp;2017&nbsp;Ryou-UI:&nbsp;
+                        <a href="https://github.com/ryouaki/ryouaki.github.io">
+                            https://ryouaki.github.com
+                        </a>
+                    </div>
+                    <div className="footer-item-center">
+                        <a href="https://github.com"><GithubIcon/></a>
+                    </div>
+                    <div className="footer-item-right">
+                        Ryou's&nbsp;
+                        <a href="https://github.com/ryouaki">GitHub</a>&nbsp;|&nbsp;
+                        <a href="mailto:46517115@qq.com">Email</a>&nbsp;|&nbsp;
+                        <a href="tel:13940923382">Mobile</a>
+                    </div>
+                </FooterBar>
             </div>
         );
     }
