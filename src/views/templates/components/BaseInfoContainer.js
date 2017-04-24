@@ -9,13 +9,15 @@ class BaseInfoContainer extends React.Component {
         return(
             <Box size='18' className='body-container-baseinfo'>
                 <div className='body-container-baseinfo-warp'>
-                    <div style={{width: '50%'}}>
-                        111
+                    <div className='body-container-baseinfo-warp-item-userinfo'>
+                        <div className='body-container-baseinfo-warp-item-userinfo-name'>
+                            111
+                        </div>
                     </div>
-                    <div style={{width: '50%'}}>
+                    <div className='body-container-baseinfo-warp-item-relativeship'>
                         222
                     </div>
-                    <div style={{width: '100%'}}>
+                    <div className='body-container-baseinfo-warp-item-personal'>
                         333
                     </div>
                 </div>

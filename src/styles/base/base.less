@@ -21,6 +21,16 @@ body {
     margin: 4px;
 }
 
+.common-border() {
+    border: 1px solid @borderColor;
+    border-radius: 4px;
+    box-sizing: border-box;
+}
+
+.common-margining(@i) {
+    margin: @i;
+}
+
 @media screen and (max-width: 980px) {
     .container() {
         padding: 0 0;

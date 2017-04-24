@@ -91,18 +91,39 @@
     }
 
     .body-container-baseinfo {
-        display: flex;
-        flex-wrap: wrap;
         padding-left: 10px;
         box-sizing: border-box;
 
         .body-container-baseinfo-warp {
+            .common-border();
             width: 100%;
             height: 100%;
-            border: 1px solid @borderColor;
-            border-radius: 4px;
             padding: 4px;
             box-sizing: inherit;
+            display: flex;
+            flex-wrap: wrap;
+
+            .body-container-baseinfo-warp-item-userinfo {
+                .common-border();
+                width: e("calc( 50% - 4px )");
+                .common-margining(2px);
+
+                .body-container-baseinfo-warp-item-userinfo-name {
+
+                }
+            }
+
+            .body-container-baseinfo-warp-item-relativeship {
+                .common-border();
+                width: e("calc( 50% - 4px )");
+                .common-margining(2px);
+            }
+
+            .body-container-baseinfo-warp-item-personal {
+                .common-border();
+                width: 100%;
+                .common-margining(2px);
+            }
         }
     }
 }
