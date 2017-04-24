@@ -13,9 +13,9 @@ class HeaderItem extends React.Component {
 
         return(
             <div className={classnames(
-                className, 
                 "ryou-headeritem-container",
                 `ryou-headeritem-container-align-${align}`,
+                className
             )}>
                 { this.props.children }
             </div>

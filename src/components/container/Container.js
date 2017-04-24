@@ -13,7 +13,7 @@ class Container extends React.Component {
 
         return (
             <section { ...other } className={
-                classnames(className, 'ryou-container')
+                classnames('ryou-container', className)
             }>
                 {this.props.children}
             </section>

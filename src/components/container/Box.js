@@ -14,9 +14,9 @@ class Box extends React.Component {
 
         return (
             <div { ...other } className={ classnames(
-                className, 
                 'ryou-container-box', 
-                `ryou-container-box-size-${size}`
+                `ryou-container-box-size-${size}`,
+                className
             )}>
                 {this.props.children}
             </div>
