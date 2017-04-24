@@ -3,7 +3,7 @@ import classnames from 'classnames';
 
 import './styles/index.less';
 
-class PersonIcon extends React.Component {
+class MobileIcon extends React.Component {
     render() {
 
         let {
@@ -17,11 +17,11 @@ class PersonIcon extends React.Component {
         return(
             <svg aria-hidden='true' className={classnames(className, 'ryou-icon-class')} height={height} viewBox={viewBox} width={width}>
                 <path fillRule={fillRule}
-                    d='M 12 12 C 14.763 12 17 9.762 17 7.001 C 17 4.239 14.763 2 12 2 C 9.239 2 7.001 4.239 7.001 7.001 C 7.001 9.762 9.239 12 12 12 Z M 12 14.5 C 8.664 14.5 2 16.176 2 19.5 L 2 22 L 22 22 L 22 19.5 C 22 16.176 15.339 14.5 12 14.5 Z'>
+                    d='M17 1.01L7 1c-1.1 0-2 .9-2 2v18c0 1.1.9 2 2 2h10c1.1 0 2-.9 2-2V3c0-1.1-.9-1.99-2-1.99zM17 19H7V5h10v14z'>
                 </path>
             </svg>
         );
     }
 }
 
-export default PersonIcon;
+export default MobileIcon;

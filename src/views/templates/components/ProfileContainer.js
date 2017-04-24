@@ -1,5 +1,14 @@
 import React from 'react';
-import { Box, GroupIcon, PersonIcon } from '../../../components';
+import { 
+    Box, 
+    GroupIcon, 
+    PersonIcon, 
+    AddressIcon, 
+    EmailIcon,
+    MobileIcon,
+    WeChatIcon,
+    QQIcon 
+} from '../../../components';
 
 class ProfileContainer extends React.Component {
     render() {
@@ -21,19 +30,19 @@ class ProfileContainer extends React.Component {
                 </div>
                 <div className='body-container-profile-contact'>
                     <div className='body-container-profile-text'>
-                        Dalian, Liaoning, China
+                        <AddressIcon/><span>Dalian, Liaoning, China</span>
                     </div>
                     <div className='body-container-profile-text'>
-                        liang_146@163.com
+                        <EmailIcon/><span>liang_146@163.com</span>
                     </div>
                     <div className='body-container-profile-text'>
-                        46517115
+                        <QQIcon/><span>46517115</span>
                     </div>
                     <div className='body-container-profile-text'>
-                        lianghui086343
+                        <WeChatIcon/><span>lianghui086343</span>
                     </div>
                     <div className='body-container-profile-text'>
-                        13940923382
+                        <MobileIcon/><span>13940923382</span>
                     </div>
                 </div>
                 <div className='body-container-profile-organization'>

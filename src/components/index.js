@@ -2,7 +2,16 @@ import { HeaderBar, HeaderItem } from './header';
 import { Container, Box } from './container';
 import { FooterBar } from './footer';
 
-import { GithubIcon, GroupIcon, PersonIcon } from './icons';
+import { 
+    GithubIcon, 
+    GroupIcon, 
+    PersonIcon, 
+    AddressIcon, 
+    EmailIcon,
+    MobileIcon,
+    WeChatIcon,
+    QQIcon 
+} from './icons';
 
 export { 
     HeaderBar,
@@ -12,5 +21,10 @@ export {
     FooterBar,
     GithubIcon,
     GroupIcon,
-    PersonIcon
+    PersonIcon,
+    AddressIcon,
+    EmailIcon,
+    MobileIcon,
+    WeChatIcon,
+    QQIcon
 };

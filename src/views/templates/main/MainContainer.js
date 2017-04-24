@@ -37,23 +37,25 @@ export default class MainContainer extends React.Component {
                     <div style={{width:"200px",height:"200px",margin:"5px",border:"1px solid #000"}}></div>
                     <div style={{width:"200px",height:"200px",margin:"5px",border:"1px solid #000"}}></div>
                 </Container>
-                <FooterBar align={ FooterBar.FOOTER_LAYOUT_TYPE_BETWEEN } className="footerbar-container">
-                    <div className="footer-item-left">
-                        &copy;&nbsp;2017&nbsp;Ryou-UI:&nbsp;
-                        <a href="https://github.com/ryouaki/ryouaki.github.io">
-                            https://ryouaki.github.com
-                        </a>
-                    </div>
-                    <div className="footer-item-center">
-                        <a href="https://github.com"><GithubIcon/></a>
-                    </div>
-                    <div className="footer-item-right">
-                        Ryou's&nbsp;
-                        <a href="https://github.com/ryouaki">GitHub</a>&nbsp;|&nbsp;
-                        <a href="mailto:46517115@qq.com">Email</a>&nbsp;|&nbsp;
-                        <a href="tel:13940923382">Mobile</a>
-                    </div>
-                </FooterBar>
+                {
+                    false&&<FooterBar align={ FooterBar.FOOTER_LAYOUT_TYPE_BETWEEN } className="footerbar-container">
+                        <div className="footer-item-left">
+                            &copy;&nbsp;2017&nbsp;Ryou-UI:&nbsp;
+                            <a href="https://github.com/ryouaki/ryouaki.github.io">
+                                https://ryouaki.github.com
+                            </a>
+                        </div>
+                        <div className="footer-item-center">
+                            <a href="https://github.com"><GithubIcon/></a>
+                        </div>
+                        <div className="footer-item-right">
+                            Ryou's&nbsp;
+                            <a href="https://github.com/ryouaki">GitHub</a>&nbsp;|&nbsp;
+                            <a href="mailto:46517115@qq.com">Email</a>&nbsp;|&nbsp;
+                            <a href="tel:13940923382">Mobile</a>
+                        </div>
+                    </FooterBar>
+                }
             </div>
         );
     }
