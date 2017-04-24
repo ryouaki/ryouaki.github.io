@@ -9,7 +9,8 @@ import {
 } from '../../../components';
 
 import {
-    ProfileContainer
+    ProfileContainer,
+    BaseInfoContainer
 } from '../components'
 
 export default class MainContainer extends React.Component {
@@ -28,6 +29,7 @@ export default class MainContainer extends React.Component {
                 </HeaderBar>
                 <Container className="body-container">
                     <ProfileContainer/>
+                    <BaseInfoContainer/>
                     这是一个基于GitHub风格的React个人主页网站，还在开发中。
                     <div style={{width:"200px",height:"400px",margin:"5px",border:"1px solid #000"}}></div>
                     <div style={{width:"200px",height:"200px",margin:"5px",border:"1px solid #000"}}></div>

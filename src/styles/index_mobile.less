@@ -1,11 +1,24 @@
 @media screen and (max-width: 980px) {
+    .headerbar-item-left, 
+    .headerbar-item-right {
+        padding: 0 10px;
+    }
+    
     .body-container {
         margin: 0px;
+        padding: 10px;   
     }
 }
 
 @media screen and (max-width: 420px) {
-    .ryou-container-box {
-        width: 100% !important;
+    .body-container {
+        .body-container-profile, 
+        .body-container-baseinfo {
+            width: 100%;
+        }
+
+        .body-container-baseinfo {
+            padding-left: 0px;
+        }
     }
 }

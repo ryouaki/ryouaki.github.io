@@ -4,7 +4,9 @@
  */
 
 import ProfileContainer from './ProfileContainer';
+import BaseInfoContainer from './BaseInfoContainer';
 
 export {
-    ProfileContainer
+    ProfileContainer,
+    BaseInfoContainer
 }

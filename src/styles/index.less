@@ -32,7 +32,7 @@
         border-radius: 4px;
 
         .body-container-profile-avatar {
-            margin: 4px;
+            .common-margin();
 
             img {
                 width: 100%;
@@ -43,7 +43,7 @@
         .body-container-profile-userinfo,
         .body-container-profile-contact,
         .body-container-profile-organization{
-            margin: 4px;
+            .common-margin();
             border-bottom: 1px solid @borderColor;
             padding: 10px 0px 15px 0px;
         }
@@ -87,6 +87,22 @@
                     fill: #6a737d;
                 }
             }
+        }
+    }
+
+    .body-container-baseinfo {
+        display: flex;
+        flex-wrap: wrap;
+        padding-left: 10px;
+        box-sizing: border-box;
+
+        .body-container-baseinfo-warp {
+            width: 100%;
+            height: 100%;
+            border: 1px solid @borderColor;
+            border-radius: 4px;
+            padding: 4px;
+            box-sizing: inherit;
         }
     }
 }
