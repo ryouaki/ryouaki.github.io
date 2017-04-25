@@ -103,24 +103,27 @@
             display: flex;
             flex-wrap: wrap;
 
-            .body-container-baseinfo-warp-item-userinfo {
-                width: e("calc( 50% - 4px )");
-                .common-margining(2px);
+            > div {
+                text-align: center;
+                display: flex;
+                flex-direction: column;
+                border-bottom: 1px solid @borderColor;
+                width: 100%;
+                .common-margining(10px);
 
-                .body-container-baseinfo-warp-item-userinfo-name {
+                > div {
+                    
+                }
 
+                &:nth-child(1), &:nth-child(2) {
+                    width: e("calc( 50% - 20px )");
+                }
+
+                &:last-child {
+                    border-bottom: none;
                 }
             }
-
-            .body-container-baseinfo-warp-item-relativeship {
-                width: e("calc( 50% - 4px )");
-                .common-margining(2px);
-            }
-
-            .body-container-baseinfo-warp-item-personal {
-                width: 100%;
-                .common-margining(2px);
-            }
+            
         }
     }
 }

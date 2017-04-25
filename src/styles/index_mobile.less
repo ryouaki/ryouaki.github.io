@@ -13,6 +13,11 @@
 }
 
 @media screen and (max-width: 560px) {
+
+    .headerbar-item-center {
+        display: none;
+    }
+
     .body-container {
         .body-container-profile, 
         .body-container-baseinfo {
@@ -23,9 +28,11 @@
             padding-left: 0px;
 
             .body-container-baseinfo-warp {
-                .body-container-baseinfo-warp-item-userinfo,
-                .body-container-baseinfo-warp-item-relativeship {
+                > div {
                     width: 100%;
+                    &:nth-child(1), &:nth-child(2) {
+                        width: 100%;
+                    }
                 }
             }
         }

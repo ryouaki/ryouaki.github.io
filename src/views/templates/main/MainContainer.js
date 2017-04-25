@@ -21,6 +21,9 @@ export default class MainContainer extends React.Component {
                     <HeaderItem className="headerbar-item-left">
                         Ryou (梁亚辉)
                     </HeaderItem>
+                    <HeaderItem className="headerbar-item-center">
+                        没什么，就是觉得这里有点空, 还在开发ING...
+                    </HeaderItem>
                     <HeaderItem align={ HeaderItem.HEADER_ITEM_ALIGN_RIGHT } className="headerbar-item-right">
                         <span>中文</span>
                         /
