@@ -4,8 +4,22 @@ import {
     Box
 } from '../../../components';
 
+import ProjectItem from './ProjectItem';
+import HistoryItem from './HistoryItem';
+
 class BaseInfoContainer extends React.Component {
     render() {
+
+        let works = [];
+        for (let i = 0; i < 20; i++) {
+            works.push(<HistoryItem key={ i+'' }/>);
+        }
+
+        let projects = [];
+        for (let i = 0; i < 20; i++) {
+            projects.push(<ProjectItem key={ i+'' }/>);
+        }
+
         return(
             <Box size='16' className='body-container-baseinfo'>
                 <div className='body-container-baseinfo-warp'>
@@ -23,9 +37,11 @@ class BaseInfoContainer extends React.Component {
                     </div>
                     <div>
                         这里计划写一些任职经历
+                        { works }
                     </div>
                     <div>
                         这里可以写很多项目经历
+                        { projects }
                     </div>
                 </div>
             </Box>
