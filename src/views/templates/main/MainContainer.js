@@ -33,9 +33,9 @@ export default class MainContainer extends React.Component {
                 </Container>
                 <FooterBar align={ FooterBar.FOOTER_LAYOUT_TYPE_BETWEEN } className="footerbar-container">
                     <div className="footer-item-left">
-                        &copy;&nbsp;2017&nbsp;Ryou-UI:&nbsp;
+                        &copy;&nbsp;2017&nbsp;Ryou‘s&nbsp;
                         <a href="https://github.com/ryouaki/ryouaki.github.io">
-                            https://ryouaki.github.com
+                            Source Code
                         </a>
                     </div>
                     <div className="footer-item-center">

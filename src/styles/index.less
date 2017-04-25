@@ -127,13 +127,15 @@
 
 .footerbar-container {
     .container();
-
     background-color: #ffffff;
     border-top: 1px solid #eaecef;
     margin: 0 e('calc( 50% - 490px )');
     padding: 0px 0px;
     box-sizing: border-box;
     color: @fontColor;
+    align-items: center;
+
+    
 
     a {
         text-decoration: none;
@@ -147,7 +149,7 @@
         }
 
         &:hover {
-            color: #000000;
+            color: RGBA(37, 101, 202, .9);
 
             & svg path {
                 fill: rgba(0, 0, 0, .5);
@@ -160,6 +162,9 @@
     }
 
     .footer-item-center {
+        height: 100%;
+        text-align: center;
+
         svg {
             width: 24px;
             
