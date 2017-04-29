@@ -14,6 +14,11 @@ import {
 } from '../components'
 
 export default class MainContainer extends React.Component {
+
+    componentDidMount() {
+        this.props.action_init();
+    }
+
     render() {
         return(
             <div>
