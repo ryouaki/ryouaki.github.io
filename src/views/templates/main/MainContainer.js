@@ -43,6 +43,7 @@ export default class MainContainer extends React.Component {
                         historys={this.props.data?this.props.data.historys:[]}
                         skills={this.props.data?this.props.data.professional_skill:[]}
                         personal={this.props.data?this.props.data.personal:''}
+                        trainings={this.props.data?this.props.data.trainings:[]}
                     />
                 </Container>
                 <FooterBar align={ FooterBar.FOOTER_LAYOUT_TYPE_BETWEEN } className="footerbar-container">

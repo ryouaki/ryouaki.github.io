@@ -18,19 +18,14 @@
     "job_type": "全职",
     "professional_skill": [
         {
-            "name": "C++",
-            "experience": "7",
-            "comments": "拥有7年Windows C++开发经验，熟悉VS系列工具的使用与调试。熟悉Win32 API。"
-        },
-        {
             "name": "JavaScript",
             "experience": "5",
-            "comments": "拥有累计5年JS使用经验，其中3.5年Nodejs开发经验。Web JS开发5年经验。"
+            "comments": "拥有累计5年JS使用经验，其中3.5年Nodejs开发经验。Web JS开发5年经验。目前的主要开发语言。"
         },
         {
             "name": "Nodejs",
             "experience": "3.5",
-            "comments": "使用Nodejs+Express超过3年半，可以熟练开发基于Nodejs+Express的Restful API后台应用。"
+            "comments": "使用Nodejs+Express超过3年半，可以熟练开发基于Nodejs+Express的Restful API后台应用。。目前的主要开发语言。"
         },
         {
             "name": "Cordova",
@@ -45,7 +40,17 @@
         {
             "name": "Android/iOS",
             "experience": "2",
-            "comments": "了解Android和iOS的开发和工具使用，虽然不能熟练开发，但是应对一般调试开发还可以。"
+            "comments": "了解Android和iOS的开发和工具使用，虽然不能熟练开发，但是应对一般调试开发还可以。也已经2年多没用过了。有点生疏了。"
+        },
+        {
+            "name": "C++",
+            "experience": "7",
+            "comments": "拥有7年Windows C++开发经验，熟悉VS系列工具的使用与调试。熟悉Win32 API。最近4年多都没再使用过，已经生疏了。"
+        },
+        {
+            "name": "Java",
+            "experience": "2",
+            "comments": "曾经使用过2年，目前基本可以忽略不计了。语法和spring框架的使用都忘光了。"
         }
     ],
     "historys": [
@@ -260,7 +265,7 @@
             "description": "计算机租赁管理系统。 主要用于日本一家计算机租赁公司的PC租赁业务的信息管理系统。采用JAVA开发的WEB应用程序。数据库采用ORACLE。服务器是TOMCAT运行在LINUX上。使用框架STRUTS."
         }
     ],
-    "training": [
+    "trainings": [
         {
             "from": "2015-10",
             "to": "2015-10",
@@ -270,7 +275,22 @@
             "from": "2015-08",
             "to": "2015-08",
             "name": "Foundation Archtect"
+        },
+        {
+            "from": "2011-01",
+            "to": "2011-02",
+            "name": "Foundation Linux"
+        },
+        {
+            "from": "2010-10",
+            "to": "2010-12",
+            "name": "日本语实用口语"
+        },
+        {
+            "from": "2010-05",
+            "to": "2010-05",
+            "name": "TOICE"
         }
     ],
-    "personal": "VC/C/C++/MFC/LINUX C/WIN32SDK多年经验.<br>目前主要从事Nodejs和前端的全栈开发。两年手机开发经验主要进行后台Nodejs开发RESTAPI，前台基于Cordova的WebApp。<br>最近专注于Nodejs后台和React前端的开发项目。目前我个人认为我对所有技术都是熟练使用。还达不到精通。不过做项目没什么问题。<br>日语三级相当,社内二级(SE),对日项目写详细式样书经验两年以上。有书面交流经验。没有口头交流经验。在ibm的工作经验都是印度越南美国中国组成的team。主要使用书面交流。个别单词需要查一下。偶尔电话会议，勉强能够听懂。2010年参加托考试625分。 <br>虽然我的学历不高。由于早年长期派遣到各种不同类型的项目，所以我的自我学习能力和适应能力很强，可以在很短时间内适应新技术以及新的工作环境。<br>现在从事的Web互联网相关项目开发工作，对技术学习学习能力，适应能力和自我要求极高。数据库和算法比较比较薄弱"
+    "personal": "VC/C/C++/MFC/LINUX C/WIN32SDK多年经验.<br>目前主要从事Nodejs和前端的全栈开发。两年手机开发经验主要进行后台Nodejs开发RESTAPI，前台基于Cordova的WebApp。<br>最近专注于Nodejs后台和React前端的开发项目。目前我个人认为我对所有技术都是熟练使用。还达不到精通。不过做项目没什么问题。<br>日语三级相当,社内二级(SE),对日项目写详细式样书经验两年以上。有书面交流经验。没有口头交流经验。在ibm的工作期间都是印度越南美国中国组成的team。主要使用书面交流。个别单词需要查一下。偶尔电话会议，勉强能够听懂。2010年参加托考试625分。 <br>虽然我的学历不高。由于早年长期派遣到各种不同类型的项目，所以我的自我学习能力和适应能力很强，可以在很短时间内适应新技术以及新的工作环境。<br>现在从事的Web互联网相关项目开发工作，对技术学习学习能力，适应能力和自我要求极高。数据库和算法比较比较薄弱"
 }

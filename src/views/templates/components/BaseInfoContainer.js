@@ -7,6 +7,7 @@ import {
 import ProjectItem from './ProjectItem';
 import HistoryItem from './HistoryItem';
 import SkillItem from './SkillItem';
+import TrainingItem from './TrainingItem';
 import BaseInfoPanel from './BaseInfoPanel';
 
 class BaseInfoContainer extends React.Component {
@@ -22,7 +23,9 @@ class BaseInfoContainer extends React.Component {
                         其实真没想好放什么，感觉左侧基本就介绍完个人信息了。
                     </div>
                     <BaseInfoPanel title={'自我介绍'}>
-                        <div className='baseinfo-personal-item' dangerouslySetInnerHTML={{__html: this.props.personal}}></div>
+                        <div className='baseinfo-personal-item' 
+                             dangerouslySetInnerHTML={{__html: this.props.personal}}>
+                        </div>
                     </BaseInfoPanel>
                     <BaseInfoPanel title={'主要技能'}>
                         {
@@ -50,6 +53,16 @@ class BaseInfoContainer extends React.Component {
                                 return <ProjectItem 
                                             key={ index+'' }
                                             project={item}
+                                        />
+                            })
+                        }
+                    </BaseInfoPanel>
+                    <BaseInfoPanel title={'技能培训'}>
+                        { 
+                            this.props.trainings.map( (item, index) => {
+                                return <TrainingItem 
+                                            key={ index+'' }
+                                            training={item}
                                         />
                             })
                         }
