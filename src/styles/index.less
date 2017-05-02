@@ -108,29 +108,36 @@
                 border-radius: 4px;
                 padding: 4px;
                 width: 100%;
-                 box-sizing: border-box;
+                box-sizing: border-box;
                 .common-margining(10px);
 
                 &:nth-child(1), &:nth-child(2) {
                     width: e("calc( 50% - 20px )");
                 }
-
-                &:last-child {
-                    border-bottom: none;
-                }
             }
 
             .working-history-item,
-            .project-history-item {
+            .project-history-item,
+            .skill-history-item {
                 text-align: left;
                 border-bottom: 1px solid @borderColor;
-                padding: 15px 0px;
+                padding: 15px 4px;
 
                 &:last-child {
                     border-bottom: none;
                 }
             }
-            
+            .baseinfo-personal-item {
+                text-align: left;
+            }
+            .baseinfo-panel-title {
+                font-size: 19px;
+                color: @fontColor;
+                text-align: center;
+                font-weight: bold;
+                border-bottom: 1px solid @borderColor;
+                padding-bottom: 5px;
+            }
         }
     }
 }

@@ -48,14 +48,14 @@
             "comments": "了解Android和iOS的开发和工具使用，虽然不能熟练开发，但是应对一般调试开发还可以。"
         }
     ],
-    "history": [
+    "historys": [
         {
             "name": "盛景云(天津)信息服务有限公司",
             "job_title": "高级前端研发工程师",
             "from": "2017-03-29",
             "to": "",
             "description": "主要负责公司产品ibd的前端页面的开发，以及和产品经理，交互设计师，页面设计师，后台架构师一起探讨实施方案。完成前端页面的开发和部署。",
-            "comment": ""
+            "comment": "无"
         },
         {
             "name": "InnoCellence Systems Pte. Ltd.",
@@ -106,12 +106,12 @@
             "environment": "K8s, Docker, Linux, Aliyun",
             "skills": "Nodejs, JavaScript, HTML, CSS, React.js, Redux, Mysql, Koa2, Java, Android, jquery.js, shell",
             "tools": "Git, VSCode, Webpack, gulp, Gitlab",
-            "job": "前端研发工程师",
+            "job": "高级前端研发工程师",
             "description": "负责项目中前端的研发工作，与产品经理，交互设计师，界面设计师，后台工程师一起完成系统的开发工作。加入项目以后推行react技术来替代之前的jq，从而大大降低了项目的开发复杂度和开发时间。提高了项目的维护性。第一次参与这种互联网项目的研发工作，压力很大。但是成长也非常快。总之是一次非常值得的历练。"
         },
         {
             "name": "Sanofi Communication",
-            "from": "2017-12-26",
+            "from": "2016-12-26",
             "to": "2017-03-29",
             "environment": "Aliyun",
             "skills": "JavaScript, HTML, CSS, React.js, Redux, Mysql, .net, c#",
@@ -272,5 +272,5 @@
             "name": "Foundation Archtect"
         }
     ],
-    "personal": "VC/C/C++/MFC/LINUX C/WIN32SDK多年经验.目前主要从事Nodejs和前端的全栈开发。两年手机开发经验主要进行后台Nodejs开发RESTAPI，前台基于Cordova的WebApp。最近专注于Nodejs后台和React前端的开发项目。目前我个人认为我对所有技术都是熟练使用。还达不到精通。不过做项目没什么问题。 日语三级相当,社内二级(SE),对日项目写详细式样书经验两年以上。有书面交流经验。没有口头交流经验。 由于在ibm的工作经验都是印度越南美国中国组成的team。主要使用书面交流。个别单词需要查一下。偶尔电话会议，勉强能够听懂。2010年参加托考试625分。 虽然我的学历不高。由于早年长期派遣到各种不同类型的公司，所以我的自我学习能力和适应能力很强，可以在很短时间内适应新技术以及新的工作环境。 目前从事的手机开发项目组采用敏捷模式，对技术和学习能力，适应能力要求极高。数据库和算法比较比较薄弱"
+    "personal": "VC/C/C++/MFC/LINUX C/WIN32SDK多年经验.<br>目前主要从事Nodejs和前端的全栈开发。两年手机开发经验主要进行后台Nodejs开发RESTAPI，前台基于Cordova的WebApp。<br>最近专注于Nodejs后台和React前端的开发项目。目前我个人认为我对所有技术都是熟练使用。还达不到精通。不过做项目没什么问题。<br>日语三级相当,社内二级(SE),对日项目写详细式样书经验两年以上。有书面交流经验。没有口头交流经验。在ibm的工作经验都是印度越南美国中国组成的team。主要使用书面交流。个别单词需要查一下。偶尔电话会议，勉强能够听懂。2010年参加托考试625分。 <br>虽然我的学历不高。由于早年长期派遣到各种不同类型的项目，所以我的自我学习能力和适应能力很强，可以在很短时间内适应新技术以及新的工作环境。<br>现在从事的Web互联网相关项目开发工作，对技术学习学习能力，适应能力和自我要求极高。数据库和算法比较比较薄弱"
 }

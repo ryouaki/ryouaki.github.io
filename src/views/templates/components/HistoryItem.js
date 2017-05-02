@@ -5,17 +5,17 @@ class HistoryItem extends React.Component {
         return(
             <section className='working-history-item'>
                 <div>
-                    公司名1 (01/10 ~ 02/10)
+                    { this.props.history.name }	&nbsp;({ this.props.history.from } ~ { this.props.history.to?this.props.history.to:'至今' })
                 </div>
                 <div>
-                    职位
+                    职位：{this.props.history.job_title }
                 </div>
                 <div>
-                    主要工作职责以及内容
+                    工作内容：{ this.props.history.description }
                 </div>
                 <div>
                     离开原因<br/>
-                    吧啦吧啦吧啦吧啦吧啦啦吧啦吧啦吧啦吧啦吧啦啦吧啦吧啦吧啦吧啦吧啦啦吧啦吧啦吧啦吧啦吧啦啦吧啦吧啦吧啦吧啦吧啦啦吧啦吧啦吧啦吧啦吧啦啦吧啦吧啦吧啦吧啦吧啦啦
+                    { this.props.history.comment }
                 </div>
             </section>
         );

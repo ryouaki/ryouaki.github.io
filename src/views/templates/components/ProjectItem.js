@@ -5,17 +5,23 @@ class ProjectItem extends React.Component {
         return(
             <section className='project-history-item'>
                 <div>
-                    项目名1 (01/10 ~ 02/10)
+                    { this.props.project.name }	&nbsp;({this.props.project.from} ~ {this.props.project.to?this.props.project.to:'至今'})
                 </div>
                 <div>
-                    技术背景：吧啦吧啦吧啦吧啦
+                    系统运行环境：{this.props.project.environment}
                 </div>
                 <div>
-                    主要工作职责
+                    主要开发技术：{this.props.project.skills}
                 </div>
                 <div>
-                    项目介绍<br/>
-                    吧啦吧啦吧啦吧啦吧啦啦吧啦吧啦吧啦吧啦吧啦啦吧啦吧啦吧啦吧啦吧啦啦吧啦吧啦吧啦吧啦吧啦啦吧啦吧啦吧啦吧啦吧啦啦吧啦吧啦吧啦吧啦吧啦啦吧啦吧啦吧啦吧啦吧啦啦
+                    主要开发工具：{this.props.project.tools}
+                </div>
+                <div>
+                    主要工作职责：{this.props.project.job}
+                </div>
+                <div>
+                    项目及工作内容介绍：<br/>
+                    {this.props.project.description}
                 </div>
             </section>
         );

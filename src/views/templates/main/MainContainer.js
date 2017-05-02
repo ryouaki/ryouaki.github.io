@@ -36,8 +36,14 @@ export default class MainContainer extends React.Component {
                     </HeaderItem>
                 </HeaderBar>
                 <Container className="body-container">
-                    <ProfileContainer/>
-                    <BaseInfoContainer/>
+                    <ProfileContainer
+                    />
+                    <BaseInfoContainer 
+                        projects={this.props.data?this.props.data.projects:[]}
+                        historys={this.props.data?this.props.data.historys:[]}
+                        skills={this.props.data?this.props.data.professional_skill:[]}
+                        personal={this.props.data?this.props.data.personal:''}
+                    />
                 </Container>
                 <FooterBar align={ FooterBar.FOOTER_LAYOUT_TYPE_BETWEEN } className="footerbar-container">
                     <div className="footer-item-left">

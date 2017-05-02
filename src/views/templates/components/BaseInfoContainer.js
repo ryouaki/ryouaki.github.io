@@ -6,19 +6,11 @@ import {
 
 import ProjectItem from './ProjectItem';
 import HistoryItem from './HistoryItem';
+import SkillItem from './SkillItem';
+import BaseInfoPanel from './BaseInfoPanel';
 
 class BaseInfoContainer extends React.Component {
     render() {
-
-        let works = [];
-        for (let i = 0; i < 20; i++) {
-            works.push(<HistoryItem key={ i+'' }/>);
-        }
-
-        let projects = [];
-        for (let i = 0; i < 20; i++) {
-            projects.push(<ProjectItem key={ i+'' }/>);
-        }
 
         return(
             <Box size='16' className='body-container-baseinfo'>
@@ -29,20 +21,39 @@ class BaseInfoContainer extends React.Component {
                     <div>
                         其实真没想好放什么，感觉左侧基本就介绍完个人信息了。
                     </div>
-                    <div>
-                        感觉应该写一些自我介绍，工作感言才显得高大上。
-                    </div>
-                    <div>
-                        这里放技能树
-                    </div>
-                    <div>
-                        这里计划写一些任职经历
-                        { works }
-                    </div>
-                    <div>
-                        这里可以写很多项目经历
-                        { projects }
-                    </div>
+                    <BaseInfoPanel title={'自我介绍'}>
+                        <div className='baseinfo-personal-item' dangerouslySetInnerHTML={{__html: this.props.personal}}></div>
+                    </BaseInfoPanel>
+                    <BaseInfoPanel title={'主要技能'}>
+                        {
+                            this.props.skills.map( (item, index) => {
+                                return <SkillItem 
+                                            key={ index+'' }
+                                            skill={item}
+                                        />
+                            })
+                        }
+                    </BaseInfoPanel>
+                    <BaseInfoPanel title={'任职经历'}>
+                        { 
+                            this.props.historys.map( (item, index) => {
+                                return <HistoryItem 
+                                            key={ index+'' }
+                                            history={item}
+                                        />
+                            })
+                        }
+                    </BaseInfoPanel>
+                    <BaseInfoPanel title={'项目经历'}>
+                        { 
+                            this.props.projects.map( (item, index) => {
+                                return <ProjectItem 
+                                            key={ index+'' }
+                                            project={item}
+                                        />
+                            })
+                        }
+                    </BaseInfoPanel>
                 </div>
             </Box>
         );
