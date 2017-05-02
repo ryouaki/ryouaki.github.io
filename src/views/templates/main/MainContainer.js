@@ -22,20 +22,20 @@ export default class MainContainer extends React.Component {
     render() {
         return(
             <div>
-                <HeaderBar align={ HeaderBar.HEADER_LAYOUT_TYPE_BETWEEN } className="headerbar-container">
-                    <HeaderItem className="headerbar-item-left">
+                <HeaderBar align={ HeaderBar.HEADER_LAYOUT_TYPE_BETWEEN } className='headerbar-container'>
+                    <HeaderItem className='headerbar-item-left'>
                         Ryou (梁亚辉)
                     </HeaderItem>
-                    <HeaderItem className="headerbar-item-center">
+                    <HeaderItem className='headerbar-item-center'>
                         没什么，就是觉得这里有点空, 还在开发ING...
                     </HeaderItem>
-                    <HeaderItem align={ HeaderItem.HEADER_ITEM_ALIGN_RIGHT } className="headerbar-item-right">
+                    <HeaderItem align={ HeaderItem.HEADER_ITEM_ALIGN_RIGHT } className='headerbar-item-right'>
                         <span>中文</span>
                         /
                         <span>English</span>
                     </HeaderItem>
                 </HeaderBar>
-                <Container className="body-container">
+                <Container className='body-container'>
                     <ProfileContainer
                     />
                     <BaseInfoContainer 
@@ -46,21 +46,21 @@ export default class MainContainer extends React.Component {
                         trainings={this.props.data?this.props.data.trainings:[]}
                     />
                 </Container>
-                <FooterBar align={ FooterBar.FOOTER_LAYOUT_TYPE_BETWEEN } className="footerbar-container">
-                    <div className="footer-item-left">
+                <FooterBar align={ FooterBar.FOOTER_LAYOUT_TYPE_BETWEEN } className='footerbar-container'>
+                    <div className='footer-item-left'>
                         &copy;&nbsp;2017&nbsp;Ryou‘s&nbsp;
-                        <a href="https://github.com/ryouaki/ryouaki.github.io">
+                        <a href='https://github.com/ryouaki/ryouaki.github.io'>
                             Source Code
                         </a>
                     </div>
-                    <div className="footer-item-center">
-                        <a href="https://github.com"><GithubIcon/></a>
+                    <div className='footer-item-center'>
+                        <a href='https://github.com'><GithubIcon/></a>
                     </div>
-                    <div className="footer-item-right">
+                    <div className='footer-item-right'>
                         Ryou's&nbsp;
-                        <a href="https://github.com/ryouaki">GitHub</a>&nbsp;|&nbsp;
-                        <a href="mailto:46517115@qq.com">Email</a>&nbsp;|&nbsp;
-                        <a href="tel:13940923382">Mobile</a>
+                        <a href='https://github.com/ryouaki'>GitHub</a>&nbsp;|&nbsp;
+                        <a href='mailto:46517115@qq.com'>Email</a>&nbsp;|&nbsp;
+                        <a href='tel:13940923382'>Mobile</a>
                     </div>
                 </FooterBar>
             </div>
