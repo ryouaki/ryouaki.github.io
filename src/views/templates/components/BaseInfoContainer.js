@@ -30,7 +30,7 @@ class BaseInfoContainer extends React.Component {
                         <div>目前薪资：24w／年</div>
                         <div>期望薪资：上海28w／年，南京28w／年，大连28w／年</div>
                     </BaseInfoPanel>
-                    <BaseInfoPanel title={'教育情况'}>
+                    <BaseInfoPanel title={'教育情况'} className='baseinfo-personal-school'>
                         <div>学校：辽宁对外经贸大学</div>
                         <div>时间：2002/9～2005/7</div>
                         <div>专业：计算机与信息管理</div>
