@@ -6,7 +6,7 @@ import { Provider } from 'react-redux';
 import storeCreate from './store';
 
 import {
-    BrowserRouter as Router,
+    HashRouter as Router,
     Route,
     Switch
 } from 'react-router-dom';
