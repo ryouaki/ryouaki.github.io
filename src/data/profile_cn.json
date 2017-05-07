@@ -10,8 +10,10 @@
         "experience": "11年",
         "job_status": "在职",
         "job_type": "全职",
-        "wanting":"渴望技术栈相投的机会",
-        "focus_city":"上海，南京，大连",
+        "wanting":"如果有更好的机会可以考虑",
+        "focus_city":"南京，上海，大连",
+        "job_title": "高级前端研发工程师",
+        "job_skills": "JavaScript/Html/CSS/Nodejs/Reactjs/Mysql",
         "current_salary":"23.4w/年"
     },
     "personal": "2007年以前主要从事公司内VC++相关的日本项目开发工作。2007年-2009年，有幸以派遣方式加入大连最强的技术团队英极软件FX项目，从事2年的Java前端开发。<br/>2013年以前一直从事VC++开发，主要参与医疗EMR系统的开发项目。<br/>2014年开始，一个机缘巧合，加入IBM Mobility Innovaction Center，参与移动端开发，后担任全栈(Nodejs+WebApp)开发。项目采用scrom<br/>由于对互联网项目的热切兴趣和对自身职业发展考虑，2016年决定离开工作了6年多的IBM加入一个互联网公司，担任全栈开发工程师和前端架构师，主要是用Nodejs和Reactjs从事开发。<br/>在2017年年初，在前领导的召唤下，加入了盛景云IBD团队担任高级前端研发工程师。主要担任前端开发工作。<br/>这么多年的工作经历，对于算法和数据库的接触越来越少，算法和数据库知识比较生疏。<br/>但是我对新技术的学习能力非常快，具备很强的适应能力。",
@@ -24,15 +26,13 @@
     "qq": "46517115",
     "school": {
         "college": "辽宁对外经贸大学",
-        "school_data": "2002/9～2005/7",
+        "school_data": "2002/09～2005/07",
         "specialization": "计算机信息与管理",
         "diploma": "大专",
         "comment": "学历确实让我错过很多好机会，而且也可以通过一些途径获得更高学历，但是同样也有很多公司不在乎我的学历依然录用了我，如果被拒绝，我更愿意从自身能力找原因，自身能力也许确实存在不足，如果自身能力确实过硬，对方还在乎我的学历么？"
     },
     
     "profile_url": "https://ryouaki.github.io",
-    
-    "job_title": "高级前端研发工程师",
     
     "skills": [
         {
@@ -58,7 +58,7 @@
         {
             "name": "Docker",
             "experience": "2",
-            "comments": "了解Docker的使用，可以写Dockerfile。创建镜像，以及云部署(bluemix)。"
+            "comments": "了解Docker的使用，可以写Dockerfile。创建镜像，以及云部署(bluemix)。现在在学习kubernetes+docker。"
         },
         {
             "name": "Android/iOS",

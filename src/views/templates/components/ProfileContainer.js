@@ -25,7 +25,7 @@ class ProfileContainer extends React.Component {
                         JavaScript Full-Stack Engineer
                     </div>
                     <div className='body-container-profile-notice'>
-                        Hi Ryou‘s personal Web-Site is coming!
+                        Hello, JavaScript!
                     </div>
                 </div>
                 <div className='body-container-profile-contact'>

@@ -34,8 +34,10 @@ class BaseInfoContainer extends React.Component {
                     </BaseInfoPanel>
                     <BaseInfoPanel title={ '工作状态' }>
                         <div><span>工作状态：</span>{ work_status.job_status }/{ work_status.job_type }</div>
-                        <div><span>状态：</span>{ work_status.wanting }</div>
-                        <div><span>期望城市：</span>{ work_status.focus_city }</div>
+                        {false&&<div><span>状态：</span>{ work_status.wanting }</div>}
+                        <div><span>当前职位：</span>{ work_status.job_title }</div>
+                        <div><span>当前技术：</span>{ work_status.job_skills }</div>
+                        <div><span>喜欢城市：</span>{ work_status.focus_city }</div>
                         <div><span>工作年限：</span>{ work_status.experience }</div>
                         {false&&<div><span>目前薪资：</span>{ work_status.current_salary }</div>}
                     </BaseInfoPanel>
