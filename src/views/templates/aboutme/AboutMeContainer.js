@@ -24,8 +24,8 @@ export default class MainContainer extends React.Component {
             <div>
                 <HeaderBar align={ HeaderBar.HEADER_LAYOUT_TYPE_BETWEEN } className='headerbar-container'>
                     <HeaderItem className='headerbar-item-left'>
-                        <a href='https://ryouaki.github.com'>关于我-Ryou</a>
-                        {false&&<a href='https://ryouaki.github.com/#/github'>&nbsp;/&nbsp;关于Ryou-UI</a>}
+                        <a href='/'>关于我-Ryou</a>
+                        {false&&<a href='/#/github'>&nbsp;/&nbsp;关于Ryou-UI</a>}
                     </HeaderItem>
                     <HeaderItem className='headerbar-item-center'>
                         <a href='https://github.com/ryouaki/ryouaki.github.io'><GithubIcon/></a>

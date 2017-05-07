@@ -1,6 +1,7 @@
 # ryouaki.github.io
 
 我的个人网络简历
+其实没什么必要用redux，拿来练着玩吧。
 
 # style
 
