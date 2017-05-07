@@ -1,6 +1,6 @@
 import { connect } from 'react-redux';
 import { action_init } from '../actions/actions';
-import MainContainer from './templates/main/MainContainer';
+import AboutMeContainer from './templates/aboutme/AboutMeContainer';
 
 export default connect( 
     (store) => {
@@ -11,4 +11,4 @@ export default connect(
     {
         action_init
     }
-)(MainContainer);
+)(AboutMeContainer);

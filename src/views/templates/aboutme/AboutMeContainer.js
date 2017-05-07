@@ -11,7 +11,7 @@ import {
 import {
     ProfileContainer,
     BaseInfoContainer
-} from '../components'
+} from '../aboutMeComponents'
 
 export default class MainContainer extends React.Component {
 
@@ -24,7 +24,8 @@ export default class MainContainer extends React.Component {
             <div>
                 <HeaderBar align={ HeaderBar.HEADER_LAYOUT_TYPE_BETWEEN } className='headerbar-container'>
                     <HeaderItem className='headerbar-item-left'>
-                        关于我-Ryou
+                        <a href='https://ryouaki.github.com'>关于我-Ryou</a>
+                        <a href='https://ryouaki.github.com/github'>&nbsp;/&nbsp;关于Ryou-UI</a>
                     </HeaderItem>
                     <HeaderItem className='headerbar-item-center'>
                         <a href='https://github.com/ryouaki/ryouaki.github.io'><GithubIcon/></a>
@@ -32,7 +33,7 @@ export default class MainContainer extends React.Component {
                     <HeaderItem align={ HeaderItem.HEADER_ITEM_ALIGN_RIGHT } className='headerbar-item-right'>
                         <span>中文</span>
                         /
-                        <span>English(未开发完)</span>
+                        <span>English(未完)</span>
                     </HeaderItem>
                 </HeaderBar>
                 <Container className='body-container'>

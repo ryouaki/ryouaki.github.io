@@ -7,10 +7,12 @@ import storeCreate from './store';
 
 import {
     BrowserRouter as Router,
-    Route
+    Route,
+    Switch
 } from 'react-router-dom';
 
-import MainView from './views/MainView';
+import AboutMeView from './views/AboutMeView';
+import GithubComponentsView from './views/GithubComponentsView';
 
 import './styles/index.less';
 import './styles/index_mobile.less';
@@ -20,7 +22,10 @@ let store = storeCreate();
 ReactDOM.render(
     <Provider store={ store }>
         <Router>
-            <Route exact path='/' component={ MainView }/>
+            <Switch>
+                <Route exact path='/' component={ AboutMeView }/>
+                <Route exact path='/github' component={ GithubComponentsView }/>
+            </Switch>
         </Router>
     </Provider>,
     document.getElementById('root')
