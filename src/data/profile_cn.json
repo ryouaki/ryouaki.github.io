@@ -43,12 +43,12 @@
         {
             "name": "Nodejs",
             "experience": "3.5",
-            "comments": "使用Nodejs+Express超过3年半，可以熟练开发基于Nodejs+Express的Restful API后台应用。目前的主要开发语言。没有刻意的学习过nodejs深层原理和v8的代码，在使用过程中发现问题解决问题。阅读了部分expressjs源码。"
+            "comments": "使用Nodejs+Express超过3年半，可以熟练开发基于Nodejs+Express的Restful API后台应用。目前的主要开发技术。没有刻意的学习过nodejs深层原理和v8的代码，在使用过程中发现问题解决问题。阅读了部分expressjs源码。"
         },
         {
             "name": "React.js",
             "experience": "1",
-            "comments": "在2016年加入英诺瑞新，有幸赶上公司推行Reactjs，成为第一批尝试和使用新技术的人。从此喜欢上了这项技术，目前的主要使用的前端框架。"
+            "comments": "在2016年加入英诺瑞新，有幸赶上公司推行Reactjs，成为第一批尝试和使用新技术的人。从此喜欢上了这项技术，目前主要使用的前端框架。"
         },
         {
             "name": "Cordova",
