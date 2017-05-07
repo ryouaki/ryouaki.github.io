@@ -5,11 +5,10 @@ class SkillItem extends React.Component {
         return(
             <section className='skill-history-item'>
                 <div>
-                    { this.props.skill.name }&nbsp;({this.props.skill.experience}年)
+                    <span>{ this.props.skill.name }&nbsp;({ this.props.skill.experience }年)</span>
                 </div>
                 <div>
-                    描述：<br/>
-                    {this.props.skill.comments}
+                    <span>描述：</span>{ this.props.skill.comments }
                 </div>
             </section>
         );
