@@ -45,7 +45,7 @@ export default class MainContainer extends React.Component {
                 </Container>
                 <FooterBar align={ FooterBar.FOOTER_LAYOUT_TYPE_BETWEEN } className='footerbar-container'>
                     <div className='footer-item-left'>
-                        &copy;&nbsp;2017&nbsp;~&nbsp;2017&nbsp;Ryou's&nbsp;
+                        &copy;&nbsp;2017&nbsp;Ryou's&nbsp;
                         <a href='https://github.com/ryouaki/ryouaki.github.io'>
                             Personal Web-Page
                         </a>
