@@ -24,10 +24,10 @@ export default class MainContainer extends React.Component {
             <div>
                 <HeaderBar align={ HeaderBar.HEADER_LAYOUT_TYPE_BETWEEN } className='headerbar-container'>
                     <HeaderItem className='headerbar-item-left'>
-                        Ryou (梁亚辉)
+                        关于我-Ryou
                     </HeaderItem>
                     <HeaderItem className='headerbar-item-center'>
-                        个人简历
+                        <a href='https://github.com/ryouaki/ryouaki.github.io'><GithubIcon/></a>
                     </HeaderItem>
                     <HeaderItem align={ HeaderItem.HEADER_ITEM_ALIGN_RIGHT } className='headerbar-item-right'>
                         <span>中文</span>

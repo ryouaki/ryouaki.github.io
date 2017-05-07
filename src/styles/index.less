@@ -8,7 +8,21 @@
     }
 
     .headerbar-item-center {
-        font-size: 30px;
+        height: 100%;
+        text-align: center;
+        visibility: hidden;
+
+        svg {
+            width: 30px;
+            
+            path {
+                fill: #c6cbd1;
+            }
+
+            &:hover path {
+                fill: #ffffff;
+            }
+        }
     }
 
     .headerbar-item-right {

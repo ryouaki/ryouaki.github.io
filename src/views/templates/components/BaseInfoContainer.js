@@ -37,7 +37,7 @@ class BaseInfoContainer extends React.Component {
                         <div><span>状态：</span>{ work_status.wanting }</div>
                         <div><span>期望城市：</span>{ work_status.focus_city }</div>
                         <div><span>工作年限：</span>{ work_status.experience }</div>
-                        <div><span>目前薪资：</span>{ work_status.current_salary }</div>
+                        {false&&<div><span>目前薪资：</span>{ work_status.current_salary }</div>}
                     </BaseInfoPanel>
                     <BaseInfoPanel title={ '教育情况' } className='baseinfo-personal-school'>
                         <div><span>学校：</span>{ school.college }</div>

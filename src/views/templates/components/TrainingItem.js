@@ -5,7 +5,7 @@ class TrainingItem extends React.Component {
         return(
             <section className='training-history-item'>
                 <div>
-                    { this.props.training.name }&nbsp;({ this.props.training.from } ~ { this.props.training.to })
+                    { this.props.training.from } ~ { this.props.training.to }<br/>{ this.props.training.name }
                 </div>
             </section>
         );
