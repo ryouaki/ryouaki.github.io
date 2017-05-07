@@ -27,10 +27,10 @@ class BaseInfoContainer extends React.Component {
                 <div className='body-container-baseinfo-warp'>
                     <BaseInfoPanel title={  '基本信息' }>
                         <div><span>姓名：</span>{ userinfo.name }</div>
-                        <div><span>英文名：</span>{ userinfo.short_name }</div>
+                        <div><span>英文：</span>{ userinfo.short_name }</div>
                         <div><span>性别：</span>{ userinfo.sex }</div>
                         <div><span>婚否：</span>{ userinfo.marry }</div>
-                        <div><span>目前居住地：</span>{ userinfo.address }</div>
+                        <div><span>住址：</span>{ userinfo.address }</div>
                     </BaseInfoPanel>
                     <BaseInfoPanel title={ '工作状态' }>
                         <div><span>工作状态：</span>{ work_status.job_status }/{ work_status.job_type }</div>
