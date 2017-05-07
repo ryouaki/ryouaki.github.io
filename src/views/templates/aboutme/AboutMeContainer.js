@@ -22,20 +22,22 @@ export default class MainContainer extends React.Component {
     render() {
         return(
             <div>
-                <HeaderBar align={ HeaderBar.HEADER_LAYOUT_TYPE_BETWEEN } className='headerbar-container'>
-                    <HeaderItem className='headerbar-item-left'>
-                        <a href='/'>关于我-Ryou</a>
-                        {false&&<a href='/#/github'>&nbsp;/&nbsp;关于Ryou-UI</a>}
-                    </HeaderItem>
-                    <HeaderItem className='headerbar-item-center'>
-                        <a href='https://github.com/ryouaki/ryouaki.github.io'><GithubIcon/></a>
-                    </HeaderItem>
-                    <HeaderItem align={ HeaderItem.HEADER_ITEM_ALIGN_RIGHT } className='headerbar-item-right'>
-                        <span>中文</span>
-                        /
-                        <span>English(未完)</span>
-                    </HeaderItem>
-                </HeaderBar>
+                <div className='headerbar-warp'>
+                    <HeaderBar align={ HeaderBar.HEADER_LAYOUT_TYPE_BETWEEN } className='headerbar-container'>
+                        <HeaderItem className='headerbar-item-left'>
+                            <a href='/'>关于我-Ryou</a>
+                            {false&&<a href='/#/github'>&nbsp;/&nbsp;关于Ryou-UI</a>}
+                        </HeaderItem>
+                        <HeaderItem className='headerbar-item-center'>
+                            
+                        </HeaderItem>
+                        <HeaderItem align={ HeaderItem.HEADER_ITEM_ALIGN_RIGHT } className='headerbar-item-right'>
+                            <span>中文</span>
+                            /
+                            <span>English(未完)</span>
+                        </HeaderItem>
+                    </HeaderBar>
+                </div>
                 <Container className='body-container'>
                     <ProfileContainer
                     />

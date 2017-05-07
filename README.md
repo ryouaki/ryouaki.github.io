@@ -1,6 +1,6 @@
 # ryouaki.github.io
 
-我的个人网络简历
+我的个人网络简历,兼容手机端[地址](https://ryouaki.github.io)
 其实没什么必要用redux，拿来练着玩吧。
 
 # style

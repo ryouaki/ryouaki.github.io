@@ -1,47 +1,40 @@
 @import './base/base.less';
 
 // 为什么要把名字起那么长。。。。。。。。
-.headerbar-container {
-    .container();
+.headerbar-warp {
+    position: fixed;
+    width: 100%;
+    top: 0px;
 
-    .headerbar-item-left {
-        font-size: 19px;
+    .headerbar-container {
+        .container();
 
-        a {
-            text-decoration: none;
-            color: rgba(255,255,255,.75);
+        .headerbar-item-left {
+            font-size: 19px;
 
-            &:hover {
-                color: #ffffff;
+            a {
+                text-decoration: none;
+                color: rgba(255,255,255,.75);
+
+                &:hover {
+                    color: #ffffff;
+                }
             }
         }
-    }
 
-    .headerbar-item-center {
-        height: 100%;
-        text-align: center;
-        visibility: hidden;
-
-        svg {
-            width: 30px;
-            
-            path {
-                fill: #c6cbd1;
-            }
-
-            &:hover path {
-                fill: #ffffff;
-            }
+        .headerbar-item-center {
+            height: 100%;
+            text-align: center;
         }
-    }
 
-    .headerbar-item-right {
-        span {
-            cursor: pointer;
-            padding: 0 5px;
+        .headerbar-item-right {
+            span {
+                cursor: pointer;
+                padding: 0 5px;
 
-            &:hover {
-                color: #ffffff;
+                &:hover {
+                    color: #ffffff;
+                }
             }
         }
     }
@@ -49,7 +42,7 @@
 
 .body-container {
     .container();
-
+    margin-top: 56px;
     margin: 20px e('calc( 50% - 490px )');
     padding: 0px;
     background-color: #ffffff;
@@ -143,11 +136,21 @@
                 padding: 4px;
                 width: 100%;
                 box-sizing: border-box;
-                .common-margining(10px);
+                .common-margining(5px, 0px);
 
-                &:nth-child(1), &:nth-child(2) {
-                    width: e("calc( 50% - 20px )");
+                .sub-child() {
+                    width: e("calc( 50% - 5px )");
                     text-align: left;
+                }
+
+                &:nth-child(1) {
+                    .sub-child();
+                    margin-right: 5px;
+                }
+
+                &:nth-child(2) {
+                    .sub-child();
+                    margin-left: 5px;
                 }
             }
 
