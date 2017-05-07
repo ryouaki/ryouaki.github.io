@@ -13,7 +13,7 @@ import {
 class ProfileContainer extends React.Component {
     render() {
         return(
-            <Box size='8' className='body-container-profile'>
+            <Box size='6' className='body-container-profile'>
                 <div className='body-container-profile-avatar'>
                     <img src='https://avatars0.githubusercontent.com/u/9922563?v=3&s=460' alt='Github上的头像'/>
                 </div>

@@ -1,22 +1,39 @@
 {
-    "name": "梁亚辉",
-    "short_name": "Ryou",
+    "userinfo": {
+        "name": "梁亚辉",
+        "short_name": "Ryou",
+        "address": "辽宁省大连市沙河口区",
+        "marry": "已婚",
+        "sex": "男"
+    },
+    "work_status": {
+        "experience": "11年",
+        "job_status": "在职",
+        "job_type": "全职",
+        "wanting":"考虑更好的机会",
+        "focus_city":"上海，南京，大连",
+        "current_salary":"23.4w/年"
+    },
     "email": [
         "liang_146@163.com",
         "46517115@qq.com"
     ],
     "mobile": "13940923382",
-    "wechat": "13940923382",
+    "wechat": "lianghui086343",
     "qq": "46517115",
-    "address": "辽宁省大连市沙河口区",
-    "sex": "男",
+    "school": {
+        "college": "辽宁对外经贸大学",
+        "school_data": "2002/9～2005/7",
+        "specialization": "计算机信息与管理",
+        "diploma": "大专",
+        "comment": "必须承认学历的影响还是非常大的。但是我还是喜欢从自身找原因，如果我的能力真的很优秀，还会有人在乎我的学历吗？"
+    },
+    
     "profile_url": "https://ryouaki.github.io",
-    "experience": "11年",
-    "specialization": "计算机信息与管理",
-    "college": "辽宁对外经贸大学",
+    
     "job_title": "高级前端研发工程师",
-    "job_type": "全职",
-    "professional_skill": [
+    
+    "skills": [
         {
             "name": "JavaScript",
             "experience": "5",

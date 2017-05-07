@@ -27,23 +27,19 @@ export default class MainContainer extends React.Component {
                         Ryou (梁亚辉)
                     </HeaderItem>
                     <HeaderItem className='headerbar-item-center'>
-                        没什么，就是觉得这里有点空, 还在开发ING...
+                        个人简历
                     </HeaderItem>
                     <HeaderItem align={ HeaderItem.HEADER_ITEM_ALIGN_RIGHT } className='headerbar-item-right'>
                         <span>中文</span>
                         /
-                        <span>English</span>
+                        <span>English(未开发完)</span>
                     </HeaderItem>
                 </HeaderBar>
                 <Container className='body-container'>
                     <ProfileContainer
                     />
                     <BaseInfoContainer 
-                        projects={this.props.data?this.props.data.projects:[]}
-                        historys={this.props.data?this.props.data.historys:[]}
-                        skills={this.props.data?this.props.data.professional_skill:[]}
-                        personal={this.props.data?this.props.data.personal:''}
-                        trainings={this.props.data?this.props.data.trainings:[]}
+                        detail={this.props.data}
                     />
                 </Container>
                 <FooterBar align={ FooterBar.FOOTER_LAYOUT_TYPE_BETWEEN } className='footerbar-container'>

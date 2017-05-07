@@ -12,39 +12,48 @@ import BaseInfoPanel from './BaseInfoPanel';
 
 class BaseInfoContainer extends React.Component {
     render() {
-
+        let {
+            userinfo = {},
+            work_status = {},
+            school = {},
+            personal='',
+            skills = [],
+            historys = [],
+            projects = [],
+            trainings = []
+        } = this.props.detail||{};
         return(
-            <Box size='16' className='body-container-baseinfo'>
+            <Box size='18' className='body-container-baseinfo'>
                 <div className='body-container-baseinfo-warp'>
                     <BaseInfoPanel title={'基本信息'}>
-                        <div>姓名：梁亚辉</div>
-                        <div>英文名：ryou</div>
-                        <div>性别：男</div>
-                        <div>婚否：已婚</div>
-                        <div>目前居住地：辽宁省大连市沙河口区</div>
+                        <div>姓名：{userinfo.name}</div>
+                        <div>英文名：{userinfo.short_name}</div>
+                        <div>性别：{userinfo.sex}</div>
+                        <div>婚否：{userinfo.marry}</div>
+                        <div>目前居住地：{userinfo.address}</div>
                     </BaseInfoPanel>
                     <BaseInfoPanel title={'工作状态'}>
-                        <div>工作：在职</div>
-                        <div>状态：考虑更好的机会</div>
-                        <div>期望城市：南京，上海，大连</div>
-                        <div>目前薪资：24w／年</div>
-                        <div>期望薪资：上海28w／年，南京28w／年，大连28w／年</div>
+                        <div>工作状态：{work_status.job_status}/{work_status.job_type}</div>
+                        <div>状态：{work_status.wanting}</div>
+                        <div>期望城市：{work_status.focus_city}</div>
+                        <div>工作年限：{work_status.experience}</div>
+                        <div>目前薪资：{work_status.current_salary}</div>
                     </BaseInfoPanel>
                     <BaseInfoPanel title={'教育情况'} className='baseinfo-personal-school'>
-                        <div>学校：辽宁对外经贸大学</div>
-                        <div>时间：2002/9～2005/7</div>
-                        <div>专业：计算机与信息管理</div>
-                        <div>学历：大专</div>
-                        <div>备注：必须承认学历的影响还是非常大的。但是我还是喜欢从自身找原因，如果我的能力真的很优秀，还会有人在乎我的学历吗？</div>
+                        <div>学校：{school.college}</div>
+                        <div>时间：{school.school_data}</div>
+                        <div>专业：{school.specialization}</div>
+                        <div>学历：{school.diploma}</div>
+                        <div>备注：{school.comment}</div>
                     </BaseInfoPanel>
                     <BaseInfoPanel title={'自我介绍'}>
                         <div className='baseinfo-personal-item' 
-                             dangerouslySetInnerHTML={{__html: this.props.personal}}>
+                             dangerouslySetInnerHTML={{__html: personal}}>
                         </div>
                     </BaseInfoPanel>
                     <BaseInfoPanel title={'主要技能'}>
                         {
-                            this.props.skills.map( (item, index) => {
+                            skills.map( (item, index) => {
                                 return <SkillItem 
                                             key={ index+'' }
                                             skill={item}
@@ -54,7 +63,7 @@ class BaseInfoContainer extends React.Component {
                     </BaseInfoPanel>
                     <BaseInfoPanel title={'任职经历'}>
                         { 
-                            this.props.historys.map( (item, index) => {
+                            historys.map( (item, index) => {
                                 return <HistoryItem 
                                             key={ index+'' }
                                             history={item}
@@ -64,7 +73,7 @@ class BaseInfoContainer extends React.Component {
                     </BaseInfoPanel>
                     <BaseInfoPanel title={'项目经历'}>
                         { 
-                            this.props.projects.map( (item, index) => {
+                            projects.map( (item, index) => {
                                 return <ProjectItem 
                                             key={ index+'' }
                                             project={item}
@@ -74,7 +83,7 @@ class BaseInfoContainer extends React.Component {
                     </BaseInfoPanel>
                     <BaseInfoPanel title={'技能培训'}>
                         { 
-                            this.props.trainings.map( (item, index) => {
+                            trainings.map( (item, index) => {
                                 return <TrainingItem 
                                             key={ index+'' }
                                             training={item}
