@@ -50,8 +50,7 @@ class BaseInfoContainer extends React.Component {
                     </BaseInfoPanel>
                     <BaseInfoPanel title={ '自我介绍及评价' }>
                         <div className='baseinfo-personal-item'
-                            dangerouslySetInnerHTML={ {  __html: personal  } }>
-                        </div>
+                            dangerouslySetInnerHTML={ {  __html: personal  } }/>
                     </BaseInfoPanel>
                     <BaseInfoPanel title={ '主要技能' }>
                         { 
