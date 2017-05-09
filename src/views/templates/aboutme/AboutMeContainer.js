@@ -17,7 +17,9 @@ export default class MainContainer extends React.Component {
 
     constructor(props) {
         super(props);
-        this.headerTip = null;
+        this.state = {
+            headerTitle: '个人简历'
+        };
 
         this.scrollHandler = this.scrollHandler.bind(this);
     }
@@ -32,11 +34,12 @@ export default class MainContainer extends React.Component {
                 titleText.push(title.innerText);
             }
         });
-        this.headerTip.innerHTML = titleText.length?titleText.join('/'):'个人简历';
+        this.setState( {
+            headerTitle: titleText.length?titleText.join('/'):'个人简历'
+        }) ;
     }
 
     componentDidMount() {
-        this.headerTip = document.querySelector('.headerbar-item-center');
         this.props.action_init();
         document.querySelector('#root > div').addEventListener('scroll', this.scrollHandler, false);
     }
@@ -51,7 +54,7 @@ export default class MainContainer extends React.Component {
                             {false&&<a href='/#/github'>&nbsp;/&nbsp;关于Ryou-UI</a>}
                         </HeaderItem>
                         <HeaderItem className='headerbar-item-center'>
-                            个人简历
+                            { this.state.headerTitle }
                         </HeaderItem>
                         <HeaderItem align={ HeaderItem.HEADER_ITEM_ALIGN_RIGHT } className='headerbar-item-right'>
                             <span>中文</span>
