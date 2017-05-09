@@ -10,7 +10,8 @@ import {
 
 import {
     ProfileContainer,
-    BaseInfoContainer
+    BaseInfoContainer,
+    ScrollUpdateHeader
 } from '../aboutMeComponents'
 
 export default class MainContainer extends React.Component {
@@ -21,29 +22,17 @@ export default class MainContainer extends React.Component {
             headerTitle: '个人简历'
         };
 
-        this.scrollHandler = this.scrollHandler.bind(this);
+        this.updateHeaderTitle = this.updateHeaderTitle.bind(this);
     }
 
-    scrollHandler() {
-        let scrollTop = document.querySelector('#root > div').scrollTop;
-        let baseItems = document.querySelectorAll('.body-container-baseinfo-warp > div');
-        let titleText = [];
-        // 每次遍历所有元素貌似不太好。。。。。虽然可以在构建后缓存所有元素然后不用每次都取。
-        // 但是，如果是一个动态列表呢？这里是否有好的办法呢？
-        baseItems.forEach( (el) => {
-            if (((el.offsetTop - 56) <= scrollTop) && (el.offsetTop + el.clientHeight >= (scrollTop + 56))) {
-                let title = el.querySelector('.baseinfo-panel-title');
-                titleText.push(title.innerText);
-            }
-        });
+    updateHeaderTitle(title) {
         this.setState( {
-            headerTitle: titleText.length?titleText.join('/'):'个人简历'
+            headerTitle: title
         }) ;
     }
 
     componentDidMount() {
         this.props.action_init();
-        document.querySelector('#root > div').addEventListener('scroll', this.scrollHandler, false);
     }
 
     render() {
@@ -89,6 +78,7 @@ export default class MainContainer extends React.Component {
                         <a href='tel:13940923382'>Mobile</a>
                     </div>
                 </FooterBar>
+                <ScrollUpdateHeader callbackHendler={this.updateHeaderTitle}/>
             </div>
         );
     }

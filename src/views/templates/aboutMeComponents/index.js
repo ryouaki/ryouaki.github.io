@@ -5,8 +5,10 @@
 
 import ProfileContainer from './ProfileContainer';
 import BaseInfoContainer from './BaseInfoContainer';
+import ScrollUpdateHeader from './ScrollUpdateHeader';
 
 export {
     ProfileContainer,
-    BaseInfoContainer
+    BaseInfoContainer,
+    ScrollUpdateHeader
 }
