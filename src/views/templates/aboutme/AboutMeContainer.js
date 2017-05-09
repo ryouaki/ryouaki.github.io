@@ -28,6 +28,8 @@ export default class MainContainer extends React.Component {
         let scrollTop = document.querySelector('#root > div').scrollTop;
         let baseItems = document.querySelectorAll('.body-container-baseinfo-warp > div');
         let titleText = [];
+        // 每次遍历所有元素貌似不太好。。。。。虽然可以在构建后缓存所有元素然后不用每次都取。
+        // 但是，如果是一个动态列表呢？这里是否有好的办法呢？
         baseItems.forEach( (el) => {
             if ((el.offsetTop <= scrollTop) && (el.offsetTop + el.clientHeight >= scrollTop)) {
                 let title = el.querySelector('.baseinfo-panel-title');
