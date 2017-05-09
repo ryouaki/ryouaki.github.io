@@ -5,7 +5,6 @@
 
 @fontColor: #586069;
 @borderColor: #e1e4e8;
-@borderColor: #efefef;
 
 html, body, body > div, body > div >div {
     height: 100%;
@@ -13,6 +12,15 @@ html, body, body > div, body > div >div {
 body {
     font-size: 14px;
     min-width: 320px;
+    overflow: hidden;
+
+    > div {
+        overflow: hidden;
+
+        > div {
+            overflow: scroll;
+        }
+    }
 }
 
 .container() {
