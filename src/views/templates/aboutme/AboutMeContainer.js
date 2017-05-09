@@ -31,7 +31,7 @@ export default class MainContainer extends React.Component {
         // 每次遍历所有元素貌似不太好。。。。。虽然可以在构建后缓存所有元素然后不用每次都取。
         // 但是，如果是一个动态列表呢？这里是否有好的办法呢？
         baseItems.forEach( (el) => {
-            if ((el.offsetTop <= scrollTop) && (el.offsetTop + el.clientHeight >= scrollTop)) {
+            if (((el.offsetTop - 56) <= scrollTop) && (el.offsetTop + el.clientHeight >= (scrollTop + 56))) {
                 let title = el.querySelector('.baseinfo-panel-title');
                 titleText.push(title.innerText);
             }
