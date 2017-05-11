@@ -5,7 +5,7 @@
 
 # style
 
-写一套github风格的react-ui组件库 ( ^_^ ) 
+写一套github风格的react-ui组件库 ( ^_^ ) ，有人嫌太丑。。。。。。。而且也不知道需要满足什么交互效果。。。。。。
 
 # problem
 
