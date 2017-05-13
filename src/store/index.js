@@ -14,7 +14,6 @@ let reducers = initReducer();
 
 
 const createStoreWithMiddleware = applyMiddleware(logger)(createStore);
-// const store = createStoreWithMiddleware(reducer);
 
 export default () => {
     let store = createStoreWithMiddleware(
