@@ -41,18 +41,13 @@ export default class ScrollUpdateHeader extends React.Component {
 
     /*
      * 这是一个很奇怪的现象，在每次父容器刷新的时候，会导致这个组件重新执行render，
-     * 而我没有改变这里的任何属性，只是绑定了一个callback函数。看来在constructor里面bind函数并不能避免re-render。
+     * 而我没有改变这里的任何属性，只是绑定了一个callback函数。看来在constructor里面bind函数并不能避免render的执行，但是dom是不刷新的。
      */
     componentWillUpdate(nextProps, nextState) {
-        console.log(this.props);
-        console.log(this.state);
-        console.log(nextProps);
-        console.log(nextState);
         this.refreshOffsetTops();
     }
 
     render() {
-        console.log('------')
         return null;
     }
 }
