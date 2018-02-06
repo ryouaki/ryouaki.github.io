@@ -1,0 +1,31 @@
+@import '../../base/styles/base.less';
+
+@footerHeight: 56px;
+@footerBackgroundColor: #ffffff;
+
+.footerbar-container() {
+    height: @footerHeight;
+    line-height: @footerHeight;
+    background-color: @footerBackgroundColor;
+    display: flex;
+}
+
+.ryou-footerbar-container {
+    .footerbar-container();
+}
+
+.ryou-footerbar-container-layout-between {
+    .container-align-between();
+}
+
+.ryou-footerbar-container-layout-start {
+    .container-align-start();
+}
+
+.ryou-footerbar-container-layout-end {
+    .container-align-end();
+}
+
+.ryou-footerbar-container-layout-center {
+    .container-align-center();
+}

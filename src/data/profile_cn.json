@@ -1,0 +1,348 @@
+{
+    "userinfo": {
+        "name": "梁亚辉",
+        "short_name": "Ryou",
+        "address": "辽宁省大连市沙河口区",
+        "marry": "已婚",
+        "sex": "男"
+    },
+    "work_status": {
+        "experience": "11年",
+        "job_status": "在职",
+        "job_type": "全职",
+        "wanting":"如果有更好的机会可以考虑",
+        "focus_city":"南京，上海，大连",
+        "job_title": "高级前端研发工程师",
+        "job_skills": "JavaScript/Html/CSS/Nodejs/Reactjs/Mysql",
+        "current_salary":"23.4w/年"
+    },
+    "personal": "从14年开始有幸加入IBM Innovation center，接触最前沿的互联网技术开始，便沉迷于互联网项目。喜欢在互联网项目被各种前沿技术摧残。由于进入互联网行业较晚，技术深入程度有限。只能算是框架的囚徒，代码的搬运工。希望能够加入大咖的队伍提高，提高，在提高。喜欢开源，目前在参与React项目的文档汉化工作。",
+    "email": [
+        "liang_146@163.com",
+        "46517115@qq.com"
+    ],
+    "mobile": "13940923382",
+    "wechat": "lianghui086343",
+    "qq": "46517115",
+    "school": {
+        "college": "辽宁对外经贸大学",
+        "school_data": "2002/09～2005/07",
+        "specialization": "计算机信息与管理",
+        "diploma": "大专",
+        "comment": "学历确实让我错过很多好机会，而且也可以通过一些途径获得更高学历，但是同样也有很多公司不在乎我的学历依然录用了我，如果被拒绝，我更愿意从自身能力找原因，自身能力也许确实存在不足，如果自身能力确实过硬，对方还在乎我的学历么？"
+    },
+    
+    "profile_url": "https://ryouaki.github.io",
+    
+    "skills": [
+        {
+            "name": "JavaScript / Html / CSS",
+            "experience": "5",
+            "comments": "拥有累计5年JS使用经验，其中3.5年Nodejs开发经验。Web JS开发5年经验。目前的主要开发语言。没有刻意去学习过全部语法，都是现用现学(es5/es6)。"
+        },
+        {
+            "name": "Nodejs",
+            "experience": "3.5",
+            "comments": "使用Nodejs+Express超过3年半，可以熟练开发基于Nodejs+Express的Restful API后台应用。目前的主要开发技术。没有刻意的学习过nodejs深层原理和v8的代码，在使用过程中发现问题解决问题。阅读了部分expressjs源码。"
+        },
+        {
+            "name": "React.js",
+            "experience": "1",
+            "comments": "在2016年加入英诺瑞新，有幸赶上公司推行Reactjs，成为第一批尝试和使用新技术的人。从此喜欢上了这项技术，目前主要使用的前端框架。"
+        },
+        {
+            "name": "Cordova",
+            "experience": "2.5",
+            "comments": "拥有2.5年Cordova使用经验，熟悉实现原理以及源码，并可以独立开发原生插件。"
+        },
+        {
+            "name": "Docker",
+            "experience": "2",
+            "comments": "了解Docker的使用，可以写Dockerfile。创建镜像，以及云部署(bluemix)。现在在学习kubernetes+docker。"
+        },
+        {
+            "name": "Android/iOS",
+            "experience": "2",
+            "comments": "了解Android和iOS的开发和工具使用，虽然不能熟练开发，但是应对一般调试开发还可以。也已经2年多没用过了。有点生疏了。"
+        },
+        {
+            "name": "C/C++",
+            "experience": "5+",
+            "comments": "拥有5+年Windows C/C++开发经验，熟悉VS系列工具的使用与调试。熟悉Win32 API。最近4年多都没再使用过，已经生疏了。"
+        },
+        {
+            "name": "Java",
+            "experience": "2",
+            "comments": "曾经使用过2年，目前基本可以忽略不计了。超过8年没再用过了。语法和spring框架的使用都忘光了。"
+        }
+    ],
+    "historys": [
+        {
+            "name": "盛景云(天津)信息服务有限公司",
+            "job_title": "高级前端研发工程师",
+            "from": "2017-03-29",
+            "to": "",
+            "description": "主要负责公司产品ibd及bsp的前端，和产品经理，交互设计师，页面设计师，后台架构师一起探讨实施方案。完成前端架构的设计以及开发工作，完成项目基础组建的开发，指导team成员完成系统的交互开发。也会参与部分Nodejs开发。",
+            "comment": "前领导李总找我加入这个项目担任前端开发工作，怀着对李总(腾讯T4级别专家)的崇拜，而且组内成员都是从腾讯，赶集等一些知名互联网公司出来的，抱着和大咖学习的态度，对项目的分布式微服务架构和我喜欢的技术而来。这是一个非常长见识的项目，让我学到了许多，也认识到自身的很多不足。在李总的指导下，也充分地认识到了自身的缺点，和需要改变的地方。"
+        },
+        {
+            "name": "InnoCellence Systems Pte. Ltd.",
+            "job_title": "前端架构师",
+            "from": "2016-06-10",
+            "to": "2017-03-29",
+            "description": "主要负责项目组前端架构方案的设计与实施，带领前端开发工程师完成项目的前端开发。并参与到公司新技术react的调研和推广。在多个项目中成功的进行了react技术的实践。并很荣幸在年底获得年度技术贡献奖提名和最佳新员工奖。",
+            "comment": "参与前eland公司领导李总的创业项目。加入盛景云研发团队。"
+        },
+        {
+            "name": "IBM GDC",
+            "job_title": "AITS",
+            "from": "2009-10-09",
+            "to": "2016-05-31",
+            "description": "2014年以前在Heathcare项目担任组长，带领开发小组完成CIS EMR项目的日常开发工作以及放射线，内视镜相关业务的Support工作，并很荣幸的获得了很难得的Sea Award。2014年以后有幸加入IBM Innovaction部门，参与到IBM最前沿的技术领域。主要负责Bluepage++研发工作。并担任mentor。",
+            "comment": "希望转型架构师和对互联网项目的渴望，选择离开去寻找新机会。"
+        },
+        {
+            "name": "Livedoor(派遣)",
+            "job_title": "Java开发",
+            "from": "2007-11-01",
+            "to": "2009-09-30",
+            "description": "主要负责项目中Java前端开发工作。",
+            "comment": "从母公司离职，结束派遣合同。"
+        },
+        {
+            "name": "大连亿蓝德信息科技有限公司",
+            "job_title": "Java／C／C++开发",
+            "from": "2006-05-31",
+            "to": "2007-10-30",
+            "description": "主要负责公司NTST项目的维护和相关C／C++项目的开发工作",
+            "comment": "第一家正式合同，后得到了ibm的工作机会。"
+        },
+        {
+            "name": "大连禾舜信息科技有限公司",
+            "job_title": "Java开发",
+            "from": "2005-05-31",
+            "to": "2006-04-30",
+            "description": "作为实习生参与到公司的Java项目开发。",
+            "comment": "培训+实习。"
+        }
+    ],
+    "github_projects": [
+        {
+            "name": "CordovaCn/CordovaCn",
+            "comment": "一个以提供Cordova开发相关技术分享的项目。主要内容有官方开发文档的汉化，以及插件使用方法分享，部分经验分享和Cordova原理分析。"
+        },
+        {
+            "name": "facebook/react",
+            "comment": "目前正在参与React汉化工作。"
+        },
+        {
+            "name": "CordovaCn/CordovaPluginsDemo",
+            "comment": "提供Cordova官方插件的使用Demo。目前已经停滞。只完成了1/4。"
+        },
+        {
+            "name": "pluginCreater",
+            "comment": "Cordova插件自动生成工具。"
+        },
+        {
+            "name": "react-redux-create",
+            "comment": "基于create-react-app开发的React-Redux脚手架工具，可以快速生成基于react全家桶的前端项目。目前并没有对react-router和webpack的升级。已经在自己负责的项目大规模使用。"
+        },
+        {
+            "name": "ECMAScript2016-Design-Patterns",
+            "comment": "基于ES6语法实现的设计模式。学习es6语法时练习之用。不过总记不住，时不时回来看看。"
+        },
+        {
+            "name": "weui/react-weui",
+            "comment": "基于react的weui实现，很荣幸被作者采纳了pr。非常欣赏作者简单而高效的实现，还有全面的测试代码。经常翻看用于学习es6，react，以及测试用例的开发。"
+        }
+    ],
+    "projects": [
+        {
+            "name": "IBD／BSP",
+            "from": "2017-03-29",
+            "to": "",
+            "environment": "K8s, Docker, Linux, Aliyun",
+            "skills": "Nodejs, JavaScript, HTML, CSS, React.js, Redux, Mysql, Koa2, Java, Android, jquery.js, shell",
+            "tools": "Git, VSCode, Webpack, gulp, Gitlab",
+            "job": "高级前端研发工程师",
+            "description": "项目主要是用微服务架构，使用的技术完全取决于自己的个人喜好。负责项目中前端的研发以及前端架构工作，与产品经理，交互设计师，界面设计师，后台工程师一起完成系统的开发工作。加入项目以后推行react技术来替代之前的jq，从而大大降低了项目的开发复杂度和开发时间。提高了项目的维护性。第一次参与这种互联网项目的研发工作，压力很大。但是成长也非常快，完全颠覆了以往的工作方式。总之是一次非常值得的历练。"
+        },
+        {
+            "name": "Sanofi Communication",
+            "from": "2016-12-26",
+            "to": "2017-03-29",
+            "environment": "Aliyun",
+            "skills": "JavaScript, HTML, CSS, React.js, Redux, Mysql, .net, c#",
+            "tools": "Git, VSCode, Webpack, Gitlab",
+            "job": "前端架构师",
+            "description": "作为救场人员中途加入到项目，重新构建了前端的基础框架。经过2个多月的努力，将项目的前端功能顺利完成。"
+        },
+        {
+            "name": "PowerPortal",
+            "from": "2016-10-10",
+            "to": "2016-12-23",
+            "environment": "Aliyun",
+            "skills": "JavaScript, HTML, CSS, React.js, Redux, Mysql, .net, c#",
+            "tools": "Git, VSCode, Webpack, Gitlab",
+            "job": "前端架构师",
+            "description": "作为前端负责人完成项目的前端架构和带领其他前端开发工程师完成前端的开发任务。在客户极其苛刻的情况下，依然完成了前端的交付。这是一个非常鼓舞士气的项目。也为公司提供了非常好的react技术实践。"
+        },
+        {
+            "name": "Sanofi",
+            "from": "2016-07-01",
+            "to": "2016-09-30",
+            "environment": "Aliyun",
+            "skills": "JavaScript, HTML, CSS, React.js, Redux, Mysql, .net, c#",
+            "tools": "Git, VSCode, Webpack, Gitlab",
+            "job": "高级前端工程师",
+            "description": "作为前端负责人完成项目的前端架构和带领其他前端开发工程师完成前端的开发任务。这是公司第一个react技术的项目，虽然实施过程中充满坎坷，但是最后依然成功交付。"
+        },
+        {
+            "name": "Bluepage++",
+            "from": "2014-07-21",
+            "to": "2016-05-31",
+            "environment": "Bluemix, Docker, Linux",
+            "skills": "JavaScript, HTML, CSS, Cordova, iOS, Android, Docker, Shell, Nodejs",
+            "tools": "Git, VSCode, gulp, Gitlab, elasticsearch, seaweedfs",
+            "job": "AITS",
+            "description": "作为前端开发人员参与到项目的架构和实施，在该项目中因为开始是以原生Android开发人员加入到项目，对于很多技术都不会，都是完全从零开始。而且当时hybrid的技术国内还没有普及。在技术的学习和实践上一直靠翻阅国外资料和自己摸索。在这个项目中我通读了cordova的ios源码。充分理解了cordova的原理和使用方法，并总结了https://github.com/cordovacn项目。为其他人的学习提供了资料。"
+        },
+        {
+            "name": "CIS",
+            "from": "2009-10-09",
+            "to": "2014-07-21",
+            "environment": "Windows, AIX OS",
+            "skills": "C++, DB2, C, shell",
+            "tools": "VS 6.0, VS.NET",
+            "job": "AITS",
+            "description": "作为Windows应用开发工程师参与CIS项目的开发。担任小组长带领组员保质保量按时完成项目的开发任务。并作为放射线和内窥镜的业务专家对其他CIS子项目进行技术和业务支持。于2012年获得sea award奖。"
+        },
+        {
+            "name": "外汇保证金系统",
+            "from": "2007-11-01",
+            "to": "2009-09-30",
+            "environment": "Linux",
+            "skills": "Java, shell, Mysql, Oracle",
+            "tools": "Eclipse",
+            "job": "程序员",
+            "description": "外汇保证金系统，日本外汇交易平台。主要使用免费开源组件完成的大规模并发外汇交易系统。使用数据库集群以及负载均衡技术完成大规模并发处理。前台支持多种OS环境，并且针对不同客户需要提供多种客户端平台。主要使用java得开源ssh框架以及ajax，flex，c语言等技术。数据库使用mysql,oracle。 "
+        },
+        {
+            "name": "TAT",
+            "from": "2007-10-08",
+            "to": "2007-10-31",
+            "environment": "Window",
+            "skills": "C／C++",
+            "tools": "VC++ 6.0",
+            "job": "程序员",
+            "description": "一款用于分析检测数据的软件。用于工业自动化。用于interface得接口程序。将制定数据库中的数据按照目标系统的数据需要将数据加工转换存储到目标数据库系统 主要使用VC++6.0开发。ORACLE数据库。"
+        },
+        {
+            "name": "OER-3",
+            "from": "2007-07-02",
+            "to": "2007-09-28",
+            "environment": "Linux",
+            "skills": "C／C++",
+            "tools": "G++",
+            "job": "程序员",
+            "description": "用于接收肠胃镜扫描仪器发送过来的扫描结果，分析结果并存储到数据库中。 使用TCP/IP协议进行与扫描设备的通信。LINUX下的C++开发。使用G++。这是一个后台数据处理程序。主要用于完成检测设备与医院信息系统之间连接而开发的数据转化程序。"
+        },
+        {
+            "name": "USB設備管理システム v1.2",
+            "from": "2007-05-07",
+            "to": "2007-06-29",
+            "environment": "Window",
+            "skills": "C／C++",
+            "tools": "VC++ 6.0",
+            "job": "程序员",
+            "description": "作为TL。针对需求带领小组进行技术调研。进行可行性分析。确定解决方案。 确定方案后进行基本设计，详细设计，开发以及测试。 跟踪项目中产生的缺陷进行修正。跟踪项目进度。确保按时完成项目。"
+        },
+        {
+            "name": "移動ティムーツール",
+            "from": "2007-03-01",
+            "to": "2007-04-30",
+            "environment": "Window",
+            "skills": "C／C++",
+            "tools": "VC++ 6.0",
+            "job": "程序员",
+            "description": "医疗项目。护士用来录入患者信息的软件。 通过TCP/IP协议将患者信息传送到医院数据库服务器。 主要使用VC++.NET开发。通过TCP/IP协议按照INTERFACE提供的数据接口格式。将数据发送到指定系统。"
+        },
+        {
+            "name": "USB設備管理システム v1.0",
+            "from": "2006-10-09",
+            "to": "2007-02-28",
+            "environment": "Window",
+            "skills": "C／C++",
+            "tools": "VC++ 6.0",
+            "job": "程序员",
+            "description": "作为TL。针对需求带领小组进行基本设计，技术调研，并进行可行性分析。 确定可行方案后进行详细设计书的编写。开发以及测试。（主要依靠头脑风暴的讨论方式进行） 跟踪项目中产生的缺陷进行修正。跟踪项目进度。技术难题的攻关。确保按时完成项目。"
+        },
+        {
+            "name": "データツールシステム",
+            "from": "2006-07-03",
+            "to": "2006-09-29",
+            "environment": "Window",
+            "skills": "C／C++",
+            "tools": "VC++ 6.0",
+            "job": "程序员",
+            "description": "该项目由我负责技术，leader负责与日方客户进行交流的两人构成。我负责需求分析，解决方案的提出，根据客户反馈进行方案修改或者进行开发。客户根据开发完的软件在工厂内进行的测试后，针对客户的反馈进行修改。"
+        },
+        {
+            "name": "NTST",
+            "from": "2006-05-08",
+            "to": "2006-09-29",
+            "environment": "Window",
+            "skills": "C／C++",
+            "tools": "VC++ 6.0",
+            "job": "程序员",
+            "description": "主要担当程技术支持的角色。负责调研和技术攻关。 在维护team出现难题的时候，由我去进行支援。帮助维护team的人员解决问题。并进行一些保守技术培训。"
+        },
+        {
+            "name": "电路图设计软件",
+            "from": "2005-10-10",
+            "to": "2006-03-31",
+            "environment": "Window",
+            "skills": "C／C++",
+            "tools": "VC++ 6.0",
+            "job": "程序员",
+            "description": "在实习公司参与的第二个项目，制作一个绘制电子电路图的软件。主要用于绘制虚拟电路图，电子元件的托拽绘制，存档成图片格式如JPEG,BMP等。然后打印。主要使用VC++6.0开发的应用程序"
+        },
+        {
+            "name": "コンピュータリース管理システム",
+            "from": "2005-07-30",
+            "to": "2005-09-30",
+            "environment": "Window",
+            "skills": "Java",
+            "tools": "Eclipse",
+            "job": "程序员",
+            "description": "计算机租赁管理系统。 主要用于日本一家计算机租赁公司的PC租赁业务的信息管理系统。采用JAVA开发的WEB应用程序。数据库采用ORACLE。服务器是TOMCAT运行在LINUX上。使用框架STRUTS."
+        }
+    ],
+    "trainings": [
+        {
+            "from": "2015-10",
+            "to": "2015-10",
+            "name": "iOS Swift Developement"
+        },
+        {
+            "from": "2015-08",
+            "to": "2015-08",
+            "name": "Foundation Archtect"
+        },
+        {
+            "from": "2011-01",
+            "to": "2011-02",
+            "name": "Foundation Linux"
+        },
+        {
+            "from": "2013-10",
+            "to": "2013-12",
+            "name": "日本语实用口语(IBM内部日语水平测试245,但是好多年没用了。生疏了。可以忽略了。)"
+        },
+        {
+            "from": "2010-05",
+            "to": "2010-05",
+            "name": "TOICE(625，最近2年很少和外国人开会了。只能读写了。喜欢阅读英文技术资料。)"
+        }
+    ]
+}

@@ -1,0 +1,22 @@
+@import '../../base/styles/base.less';
+
+.ryou-container {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: flex-start;
+
+    .ryou-container-box {
+        background-color: @backgroundColor;
+    }
+
+    .ryou-container-box-size(@n, @i: 1) when (@i =< @n ) {
+        .ryou-container-box-size-@{i} {
+            width: (@i * 100% / @n);
+        }
+
+        .ryou-container-box-size(@n, (@i + 1));
+    }
+
+    .ryou-container-box-size(24);
+}

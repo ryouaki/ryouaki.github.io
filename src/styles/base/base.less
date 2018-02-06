@@ -1,0 +1,51 @@
+* {
+    margin: 0px;
+    padding: 0px;
+}
+
+@fontColor: #586069;
+@borderColor: #e1e4e8;
+
+html, body, body > div, body > div >div {
+    height: 100%;
+}
+body {
+    font-size: 14px;
+    min-width: 320px;
+    overflow: hidden;
+
+    > div {
+        overflow: hidden;
+
+        > div {
+            overflow: scroll;
+        }
+    }
+}
+
+.container() {
+    color: rgba(255, 255, 255, .75);
+    background-color: #24292e;
+    padding: 0 e("calc( 50% - 490px )");
+    margin: auto;
+}
+
+.common-margin() {
+    margin: 4px;
+}
+
+.common-border() {
+    border: 1px solid @borderColor;
+    border-radius: 4px;
+    box-sizing: border-box;
+}
+
+.common-margining(@i, @j) {
+    margin: @i @j;
+}
+
+@media screen and (max-width: 980px) {
+    .container() {
+        padding: 0 0;
+    }
+}
