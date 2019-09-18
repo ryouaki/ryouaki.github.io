@@ -1,1 +1,0 @@
-export const ACTION_APP_INIT = 'ACTION_APP_INIT';
